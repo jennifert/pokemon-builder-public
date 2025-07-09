@@ -1,0 +1,5265 @@
+{
+    "gameGeneration": 2,
+    "gameIssues": "https://bulbapedia.bulbagarden.net/wiki/List_of_glitches_(Generation_II)",
+    "serebiiDex": "https://www.serebii.net/pokedex-gs/000.shtml",
+    "imageSrc": "img/generation-i/",
+    "pokemon": [
+        {
+            "dexId": "001",
+            "name": "Bulbasaur",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 4,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "002",
+            "name": "Ivysaur",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 4,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "003",
+            "name": "Venusaur",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 4,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "004",
+            "name": "Charmander",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "fire"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 2,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "005",
+            "name": "Charmeleon",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "fire"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 2,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "006",
+            "name": "Charizard",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "fire",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 2,
+                "electric": 2,
+                "grass": 0.25,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.25,
+                "rock": 4,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "007",
+            "name": "Squirtle",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "008",
+            "name": "Wartortle",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "009",
+            "name": "Blastoise",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "010",
+            "name": "Caterpie",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "bug"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 0.5,
+                "flying": 2,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "011",
+            "name": "Metapod",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "bug"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 0.5,
+                "flying": 2,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "012",
+            "name": "Butterfree",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "bug",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 1,
+                "electric": 2,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.25,
+                "poison": 1,
+                "ground": 0,
+                "flying": 2,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 4,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "013",
+            "name": "Weedle",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "yellow"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.25,
+                "ice": 1,
+                "fighting": 0.25,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "014",
+            "name": "Kakuna",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "yellow"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.25,
+                "ice": 1,
+                "fighting": 0.25,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "015",
+            "name": "Beedrill",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "yellow"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.25,
+                "ice": 1,
+                "fighting": 0.25,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "016",
+            "name": "Pidgey",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 2,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "017",
+            "name": "Pidgeotto",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 2,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "018",
+            "name": "Pidgeot",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 2,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "019",
+            "name": "Rattata",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "020",
+            "name": "Raticate",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "021",
+            "name": "Spearow",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 2,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "022",
+            "name": "Fearow",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 2,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "023",
+            "name": "Ekans",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "blue",
+                "yellow"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "024",
+            "name": "Arbok",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "blue",
+                "yellow"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "025",
+            "name": "Pikachu",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "electric"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 0.5,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "026",
+            "name": "Raichu",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "electric"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "yellow"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 0.5,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "027",
+            "name": "Sandshrew",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "ground"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "red"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 2,
+                "electric": 0,
+                "grass": 2,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 0.5,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "028",
+            "name": "Sandslash",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "ground"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "red"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 2,
+                "electric": 0,
+                "grass": 2,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 0.5,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "029",
+            "name": "Nidoran♀",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "030",
+            "name": "Nidorina",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "031",
+            "name": "Nidoqueen",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "poison",
+                "ground"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 0,
+                "grass": 1,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 0.25,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "032",
+            "name": "Nidoran♂",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "033",
+            "name": "Nidorino",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "034",
+            "name": "Nidoking",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "poison",
+                "ground"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 0,
+                "grass": 1,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 0.25,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "035",
+            "name": "Clefairy",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "036",
+            "name": "Clefable",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "037",
+            "name": "Vulpix",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "fire"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "red"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 2,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "038",
+            "name": "Ninetales",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "fire"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "red"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 2,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "039",
+            "name": "Jigglypuff",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "040",
+            "name": "Wigglytuff",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "041",
+            "name": "Zubat",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "poison",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 2,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.25,
+                "poison": 0.5,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.25,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "042",
+            "name": "Golbat",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "poison",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 2,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.25,
+                "poison": 0.5,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.25,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "043",
+            "name": "Oddish",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "blue"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "044",
+            "name": "Gloom",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "blue"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "045",
+            "name": "Vileplume",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "blue"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "046",
+            "name": "Paras",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "bug",
+                "grass"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 4,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 2,
+                "ground": 0.25,
+                "flying": 4,
+                "psychic": 1,
+                "bug": 2,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "047",
+            "name": "Parasect",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "bug",
+                "grass"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 4,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 2,
+                "ground": 0.25,
+                "flying": 4,
+                "psychic": 1,
+                "bug": 2,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "048",
+            "name": "Venonat",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.25,
+                "ice": 1,
+                "fighting": 0.25,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "049",
+            "name": "Venomoth",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "bug",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.25,
+                "ice": 1,
+                "fighting": 0.25,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "050",
+            "name": "Diglett",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "ground"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 2,
+                "electric": 0,
+                "grass": 2,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 0.5,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "051",
+            "name": "Dugtrio",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "ground"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 2,
+                "electric": 0,
+                "grass": 2,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 0.5,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "052",
+            "name": "Meowth",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "red"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "053",
+            "name": "Persian",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "red"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "054",
+            "name": "Psyduck",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "055",
+            "name": "Golduck",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "056",
+            "name": "Mankey",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "fighting"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "blue"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 0.5,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "057",
+            "name": "Primeape",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "fighting"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "blue"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 0.5,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "058",
+            "name": "Growlithe",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "fire"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "blue"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 2,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "059",
+            "name": "Arcanine",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "fire"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "blue"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 2,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "060",
+            "name": "Poliwag",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "061",
+            "name": "Poliwhirl",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "062",
+            "name": "Poliwrath",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "fighting"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 0.5,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "063",
+            "name": "Abra",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 0.5,
+                "bug": 2,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "064",
+            "name": "Kadabra",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 0.5,
+                "bug": 2,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "065",
+            "name": "Alakazam",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": true
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 0.5,
+                "bug": 2,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "066",
+            "name": "Machop",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "fighting"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 0.5,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "067",
+            "name": "Machoke",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "fighting"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 0.5,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "068",
+            "name": "Machamp",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "fighting"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": true
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 0.5,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "069",
+            "name": "Bellsprout",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "red"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "070",
+            "name": "Weepinbell",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "red"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "071",
+            "name": "Victreebel",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "grass",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "red"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "072",
+            "name": "Tentacool",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 1,
+                "ice": 0.5,
+                "fighting": 0.5,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "073",
+            "name": "Tentacruel",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 1,
+                "ice": 0.5,
+                "fighting": 0.5,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "074",
+            "name": "Geodude",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "ground",
+                "rock"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0.5,
+                "fire": 0.5,
+                "water": 4,
+                "electric": 0,
+                "grass": 4,
+                "ice": 2,
+                "fighting": 2,
+                "poison": 0.25,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 2
+            }
+        },
+        {
+            "dexId": "075",
+            "name": "Graveler",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "ground",
+                "rock"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0.5,
+                "fire": 0.5,
+                "water": 4,
+                "electric": 0,
+                "grass": 4,
+                "ice": 2,
+                "fighting": 2,
+                "poison": 0.25,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 2
+            }
+        },
+        {
+            "dexId": "076",
+            "name": "Golem",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "ground",
+                "rock"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": true
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0.5,
+                "fire": 0.5,
+                "water": 4,
+                "electric": 0,
+                "grass": 4,
+                "ice": 2,
+                "fighting": 2,
+                "poison": 0.25,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 2
+            }
+        },
+        {
+            "dexId": "077",
+            "name": "Ponyta",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "fire"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 2,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "078",
+            "name": "Rapidash",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "fire"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 2,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "079",
+            "name": "Slowpoke",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 0.5,
+                "bug": 2,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "080",
+            "name": "Slowbro",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 0.5,
+                "bug": 2,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "081",
+            "name": "Magnemite",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "electric",
+                "steel"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0.5,
+                "fire": 2,
+                "water": 1,
+                "electric": 0.5,
+                "grass": 0.5,
+                "ice": 0.5,
+                "fighting": 2,
+                "poison": 0,
+                "ground": 4,
+                "flying": 0.25,
+                "psychic": 0.5,
+                "bug": 0.5,
+                "rock": 0.5,
+                "ghost": 0.5,
+                "dragon": 0.5,
+                "dark": 0.5,
+                "steel": 0.25
+            }
+        },
+        {
+            "dexId": "082",
+            "name": "Magneton",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "electric"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0.5,
+                "fire": 2,
+                "water": 1,
+                "electric": 0.5,
+                "grass": 0.5,
+                "ice": 0.5,
+                "fighting": 2,
+                "poison": 0,
+                "ground": 4,
+                "flying": 0.25,
+                "psychic": 0.5,
+                "bug": 0.5,
+                "rock": 0.5,
+                "ghost": 0.5,
+                "dragon": 0.5,
+                "dark": 0.5,
+                "steel": 0.25
+            }
+        },
+        {
+            "dexId": "083",
+            "name": "Farfetch'd",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 2,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "084",
+            "name": "Doduo",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 2,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "085",
+            "name": "Doduo",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 2,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "086",
+            "name": "Seel",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "087",
+            "name": "Dewgong",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "ice"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.25,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "088",
+            "name": "Grimer",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "089",
+            "name": "Muk",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "090",
+            "name": "Shellder",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "091",
+            "name": "Cloyster",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "ice"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.25,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "092",
+            "name": "Gastly",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "ghost",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0,
+                "poison": 0.25,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.25,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "093",
+            "name": "Haunter",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "ghost",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0,
+                "poison": 0.25,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.25,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "094",
+            "name": "Gengar",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "ghost",
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": true
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0,
+                "poison": 0.25,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.25,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "095",
+            "name": "Onix",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "ground",
+                "rock"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0.5,
+                "fire": 0.5,
+                "water": 4,
+                "electric": 0,
+                "grass": 4,
+                "ice": 2,
+                "fighting": 2,
+                "poison": 0.25,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 2
+            }
+        },
+        {
+            "dexId": "096",
+            "name": "Drowzee",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 0.5,
+                "bug": 2,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "097",
+            "name": "Hypno",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 0.5,
+                "bug": 2,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "098",
+            "name": "Krabby",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "099",
+            "name": "Kingler",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "100",
+            "name": "Voltorb",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "electric"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 0.5,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "101",
+            "name": "Electrode",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "electric"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 0.5,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "102",
+            "name": "Exeggcute",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "grass",
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 2,
+                "ground": 0.5,
+                "flying": 2,
+                "psychic": 0.5,
+                "bug": 4,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "103",
+            "name": "Exeggutor",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "grass",
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 2,
+                "ground": 0.5,
+                "flying": 2,
+                "psychic": 0.5,
+                "bug": 4,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "104",
+            "name": "Cubone",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "ground"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 2,
+                "electric": 0,
+                "grass": 2,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 0.5,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "105",
+            "name": "Marowak",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "ground"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 2,
+                "electric": 0,
+                "grass": 2,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 0.5,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "106",
+            "name": "Hitmonlee",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "fighting"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 0.5,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "107",
+            "name": "Hitmonchan",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "fighting"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 2,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 0.5,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "108",
+            "name": "Lickitung",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "109",
+            "name": "Koffing",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "yellow"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "110",
+            "name": "Weezing",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "poison"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "yellow"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 2,
+                "bug": 0.5,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "111",
+            "name": "Rhyhorn",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "ground",
+                "rock"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0.5,
+                "fire": 0.5,
+                "water": 4,
+                "electric": 0,
+                "grass": 4,
+                "ice": 2,
+                "fighting": 2,
+                "poison": 0.25,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 2
+            }
+        },
+        {
+            "dexId": "112",
+            "name": "Rhydon",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "ground",
+                "rock"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0.5,
+                "fire": 0.5,
+                "water": 4,
+                "electric": 0,
+                "grass": 4,
+                "ice": 2,
+                "fighting": 2,
+                "poison": 0.25,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 0.5,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 2
+            }
+        },
+        {
+            "dexId": "113",
+            "name": "Chansey",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "114",
+            "name": "Tangela",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "grass"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 0.5,
+                "electric": 0.5,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 2,
+                "ground": 0.5,
+                "flying": 2,
+                "psychic": 1,
+                "bug": 2,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "115",
+            "name": "Kangaskhan",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "116",
+            "name": "Horsea",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "117",
+            "name": "Seadra",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "118",
+            "name": "Goldeen",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "119",
+            "name": "Seaking",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "120",
+            "name": "Staryu",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "121",
+            "name": "Starmie",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 0.5,
+                "bug": 2,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "122",
+            "name": "Mr. Mime",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 0.5,
+                "bug": 2,
+                "rock": 1,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "123",
+            "name": "Scyther",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "bug",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "blue"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 1,
+                "electric": 2,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.25,
+                "poison": 1,
+                "ground": 0,
+                "flying": 2,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 4,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "124",
+            "name": "Jynx",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "ice",
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "yellow"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 0.5,
+                "bug": 2,
+                "rock": 2,
+                "ghost": 2,
+                "dragon": 1,
+                "dark": 2,
+                "steel": 2
+            }
+        },
+        {
+            "dexId": "125",
+            "name": "Electabuzz",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "electric"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "blue",
+                "yellow"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 0.5,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "126",
+            "name": "Magmar",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "fire",
+                "yellow"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "red"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 2,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 0.5
+            }
+        },
+        {
+            "dexId": "127",
+            "name": "Pinsir",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "bug"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "red"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 2,
+                "ground": 0.5,
+                "flying": 2,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "128",
+            "name": "Tauros",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "129",
+            "name": "Magikarp",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "130",
+            "name": "Gyarados",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 4,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 0,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "131",
+            "name": "Lapras",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "ice"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.25,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "132",
+            "name": "Ditto",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "133",
+            "name": "Eevee",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "134",
+            "name": "Vaporeon",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 2,
+                "ice": 0.5,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "135",
+            "name": "Jolteon",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "electric"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 0.5,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "136",
+            "name": "Flareon",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "fire"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 2,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 2,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "137",
+            "name": "Porygon",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "138",
+            "name": "Omanyte",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "rock"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0.5,
+                "fire": 0.25,
+                "water": 1,
+                "electric": 2,
+                "grass": 4,
+                "ice": 0.5,
+                "fighting": 2,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "139",
+            "name": "Omastar",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "rock"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0.5,
+                "fire": 0.25,
+                "water": 1,
+                "electric": 2,
+                "grass": 4,
+                "ice": 0.5,
+                "fighting": 2,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "140",
+            "name": "Kabuto",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "rock"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0.5,
+                "fire": 0.25,
+                "water": 1,
+                "electric": 2,
+                "grass": 4,
+                "ice": 0.5,
+                "fighting": 2,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "141",
+            "name": "Kabutops",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "water",
+                "rock"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0.5,
+                "fire": 0.25,
+                "water": 1,
+                "electric": 2,
+                "grass": 4,
+                "ice": 0.5,
+                "fighting": 2,
+                "poison": 0.5,
+                "ground": 2,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "142",
+            "name": "Aerodactyl",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "rock",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 0.5,
+                "fire": 0.25,
+                "water": 2,
+                "electric": 2,
+                "grass": 1,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 0.5,
+                "ground": 0,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "143",
+            "name": "Snorlax",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "normal"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 2,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 1,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "144",
+            "name": "Articuno",
+            "finalForm": true,
+            "isLegendary": true,
+            "types": [
+                "ice",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 2,
+                "water": 1,
+                "electric": 2,
+                "grass": 0.5,
+                "ice": 1,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 4,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "145",
+            "name": "Zapdos",
+            "finalForm": true,
+            "isLegendary": true,
+            "types": [
+                "electric",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 0,
+                "flying": 0.5,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "146",
+            "name": "Moltres",
+            "finalForm": true,
+            "isLegendary": true,
+            "types": [
+                "fire",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 2,
+                "electric": 2,
+                "grass": 0.25,
+                "ice": 2,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.25,
+                "rock": 4,
+                "ghost": 1,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "147",
+            "name": "Dratini",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "dragon"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.25,
+                "rock": 4,
+                "ghost": 1,
+                "dragon": 2
+            }
+        },
+        {
+            "dexId": "148",
+            "name": "Dragonair",
+            "finalForm": false,
+            "isLegendary": false,
+            "types": [
+                "dragon"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 2,
+                "grass": 0.5,
+                "ice": 2,
+                "fighting": 1,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.25,
+                "rock": 4,
+                "ghost": 1,
+                "dragon": 2
+            }
+        },
+        {
+            "dexId": "149",
+            "name": "Dragonite",
+            "finalForm": true,
+            "isLegendary": false,
+            "types": [
+                "dragon",
+                "flying"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 0.5,
+                "water": 0.5,
+                "electric": 1,
+                "grass": 0.25,
+                "ice": 4,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 0,
+                "flying": 1,
+                "psychic": 1,
+                "bug": 0.5,
+                "rock": 2,
+                "ghost": 1,
+                "dragon": 2
+            }
+        },
+        {
+            "dexId": "150",
+            "name": "Mewtwo",
+            "finalForm": true,
+            "isLegendary": true,
+            "types": [
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 0.5,
+                "bug": 2,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        },
+        {
+            "dexId": "151",
+            "name": "Mew",
+            "finalForm": true,
+            "isLegendary": true,
+            "types": [
+                "psychic"
+            ],
+            "evolve": {
+                "friendship": false,
+                "item": false,
+                "trade": false
+            },
+            "unobtainable": [
+                "blue",
+                "red",
+                "yellow"
+            ],
+            "weaknesses": {
+                "normal": 1,
+                "fire": 1,
+                "water": 1,
+                "electric": 1,
+                "grass": 1,
+                "ice": 1,
+                "fighting": 0.5,
+                "poison": 1,
+                "ground": 1,
+                "flying": 1,
+                "psychic": 0.5,
+                "bug": 2,
+                "rock": 1,
+                "ghost": 0,
+                "dragon": 1,
+                "dark": 1,
+                "steel": 1
+            }
+        }
+    ]
+}

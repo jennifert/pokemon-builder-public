@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    body {
+        @apply font-sans;
+    }
+
+    h1 {
+        @apply text-3xl font-bold mb-5;
+    }
+
+    h2 {
+        @apply text-2xl font-semibold my-3;
+    }
+
+    h3 {
+        @apply text-lg font-bold mt-2;
+    }
+
+    h4 {
+        @apply text-lg font-semibold mb-3;
+    }
+
+    p {
+        @apply my-3;
+    }
+
+    ol {
+        @apply list-decimal;
+    }
+
+    ul {
+        @apply list-disc;
+    }
+
+    ol,
+    ul {
+        @apply list-inside m-2;
+    }
+
+    header {
+        @apply px-4;
+    }
+
+    header nav {
+        @apply bg-indigo-500 mb-3;
+    }
+
+    footer,
+    main {
+        @apply p-4 clear-both mt-6;
+    }
+}
+
+@layer components {
+    .copyright {
+        @apply flex justify-center;
+    }
+
+    #results span {
+        display: inline;
+    }
+
+    .alert-warning {
+        @apply bg-yellow-200 relative text-yellow-600 py-3 px-3 rounded-lg;
+    }
+
+    table.pokemon-type-breakdown {
+        @apply table-auto border mt-2;
+    }
+
+    form {
+        @apply flex flex-wrap items-end gap-4 mb-6 border p-4 rounded-md bg-white shadow-sm;
+    }
+
+    form fieldset {
+        @apply flex flex-wrap gap-4 w-full;
+    }
+
+    form legend {
+        @apply font-bold;
+    }
+
+    form .form-group {
+        @apply flex flex-col;
+    }
+
+    .form-group select {
+        @apply p-1 border rounded;
+    }
+
+    .form-group label {
+        @apply mb-1;
+    }
+
+    .btn-primary {
+        @apply py-2 px-5 border border-black text-black font-semibold rounded hover:bg-gray-100 focus:outline-none focus:ring focus:ring-black;
+    }
+
+    .btn {
+        @apply bg-black text-white px-4 py-2 rounded hover:bg-gray-800 focus:outline-none focus:ring focus:ring-black;
+    }
+
+    .btn-clear {
+        @apply mt-2 p-2 border rounded bg-red-200 hover:bg-red-400;
+    }
+
+    .results-layout {
+        @apply flex flex-col md:flex-row gap-6 mt-8 w-full;
+    }
+
+    .results-left-icons {
+        @apply w-full md:basis-[70%] md:max-w-[70%] flex flex-wrap gap-2 justify-start min-w-0;
+    }
+
+    .results-right-party {
+        @apply w-full md:basis-[30%] md:max-w-[30%] sticky top-6 self-start min-w-0;
+    }
+
+    .party-info {
+        @apply inline-block px-3 py-2 m-2 border rounded bg-gray-50 hover:bg-red-100 cursor-pointer w-48 text-center align-top;
+    }
+
+    .party-info img {
+        @apply w-12 h-12 mx-auto;
+    }
+
+    .party-info .party-info-name {
+        @apply font-semibold;
+    }
+
+    .party-info .party-info-details {
+        @apply text-xs mt-1;
+    }
+}

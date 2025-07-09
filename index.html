@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Pokémon Team Builder</title>
+    <!-- <meta name="color-scheme" content="dark light"> -->
+    <meta name="twitter:dnt" content="on">
+    <link rel="stylesheet" href="/src/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Pokemon Team Evaluator - Early Generations</h1>
+    </header>
+
+    <main id="main-content">
+        <h2>Generation 1</h2>
+        <p>This is a team builder for Red, Blue, and Yellow. </p>
+        <p>Use the controls below to select your desired sprites, and if you want to see the final evolutions only. Once
+            the sprites load, click on one to add to your team, or double click to remove sprite.</p>
+        <p>All fields are required. Glitches or other hacks are not taken into consideration.</p>
+        <form id="TeamForm">
+            <fieldset>
+                <legend>Pokemon Options</legend>
+
+                <div class="form-group">
+                    <label for="sprite">Sprite:</label>
+                    <select id="sprite" name="sprite">
+                        <option value="red-blue" selected>Red &amp; Blue</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="version">Version:</label>
+                    <select id="version" name="version">
+                        <option value="blue" selected>Blue</option>
+                        <option value="red" selected>Red</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="evolution">Only Final Evolutions</label>
+                    <select id="evolution" name="evolution">
+                        <option value="no" selected>No</option>
+                        <option value="yes">Yes</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="evolve">Remove Trade Evolve</label>
+                    <select id="evolve" name="evolve">
+                        <option value="no">No</option>
+                        <option value="yes">Yes</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="unobtainable">Remove Version Exclusive</label>
+                    <select id="unobtainable" name="unobtainable">
+                        <option value="no">No</option>
+                        <option value="yes" selected>Yes</option>
+                    </select>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="legends">Include Legends?</label>
+                    <select id="legends" name="legends">
+                        <option value="no">No</option>
+                        <option value="yes" selected>Yes</option>
+                    </select>
+                </div>
+
+                <div class="flex items-end">
+                    <button type="submit" id="GenOneSubmit" name="GenOneSubmit" class="btn">
+                        Go
+                    </button>
+                </div>
+
+            </fieldset>
+
+        </form>
+
+        <div class="results-layout">
+            <div id="results" class="results-left-icons"></div>
+
+            <div id="PartyInfo" class="results-right-party">
+                <div id="partyDisplay" class="mt-4"></div>
+                <button id="clearParty" class="btn-clear hidden">
+                    Clear Party
+                </button>
+                <div id="teamWeaknessTable" class="mt-4"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <span class="copyright">
+            Sprites from <a href="https://github.com/PokeAPI/sprites" title="PokeAPI Sprites Repo">PokeAPI Sprites
+                Repo</a>. All Pokémon names,
+            images, data, and related properties are &copy; Pokémon. No copyright infringement is intended.
+        </span>
+    </footer>
+    <script type="module" src="/src/js/main.js"></script>
+</body>
+
+</html>
