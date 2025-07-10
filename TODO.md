@@ -114,7 +114,7 @@ These are enhancements to your `package.json` file for clarity and collaboration
 - [ ] Ensure all form controls are properly labeled
 
 ### ⚙️ Workflow and CI Enhancements
-- [ ] Integrate `npm run lint:*` and `a11y:prod` into GitHub Actions or another CI tool
+- [ ] Integrate `npm run lint:*` and `a11y:prod` into GitHub Actions or another CI tool. Change prod to: https://team-builder-app-7tqzs.ondigitalocean.app/?
 - [ ] Add `npm run a11y:prod` to your production build step (optional)
 - [ ] Set up Lighthouse CI for full audits (performance, PWA, SEO, a11y)
 - [ ] Consider `prettier` for auto-formatting HTML, JS, and CSS
