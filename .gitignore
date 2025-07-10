@@ -23,6 +23,16 @@ dist-ssr
 *.sln
 *.sw?
 
-# Ignore sprite images from Gen I and II
+# Ignore build output and documentation folders
+dist/
+docs/
+
+# Ignore sprite images from Sprite Github
 public/img/generation-i/
 public/img/generation-ii/
+public/img/generation-iii/
+public/img/generation-iv/
+public/img/generation-v/
+public/img/generation-vi/
+public/img/generation-vii/
+public/img/generation-viii/
