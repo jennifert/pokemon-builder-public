@@ -8,7 +8,7 @@
     "type": "module",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jennifert/Pokemon-Team-Builder"
+        "url": "https://github.com/jennifert/pokemon-builder-public"
     },
     "browserslist": [
         "last 2 Chrome versions",
