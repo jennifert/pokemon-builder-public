@@ -53,6 +53,7 @@ Make sure these are reflected in `README.md` (some already are):
 
 - [ ] Add section: “How to use the app once it’s running” (selecting Pokémon, building a team, clearing team etc.)
     - In that section, you can walk the user through using the tool in the browser – for example: selecting a game version and sprite set, adding Pokémon to the team (click to add, double-click to remove), and viewing the weakness breakdown table. Essentially, explain the UI controls and what the user should do to build their team and interpret the results. This will help non-developers understand the app’s functionality.
+- [ ] Screenshots/Demo (optional): If feasible, adding a screenshot or animated GIF of the app in action can be very effective. For example, show the interface with a team built and the weakness table displayed. This isn’t required, but a visual can attract interest. You can always add this once the UI is polished.
 - [x] ✅ Add message that works on latest stable version of browsers.
 
 
@@ -127,7 +128,6 @@ These are entirely optional and relevant only if the project will be used or con
 - [ ] Add contribution guidelines
   - Should describe how to lint, test, and format code
   - Mention if PRs are welcome and any project-specific conventions
-- [ ] Screenshots/Demo (optional): If feasible, adding a screenshot or animated GIF of the app in action can be very effective. For example, show the interface with a team built and the weakness table displayed. This isn’t required, but a visual can attract interest. You can always add this once the UI is polished.
 - [x] [Live API Docs](https://jennifert.github.io/Pokemon-Team-Builder/) — Auto-generated [JSDoc](https://jsdoc.app/) documentation
 
 ### 📦 Tooling (Optional Enhancements)
