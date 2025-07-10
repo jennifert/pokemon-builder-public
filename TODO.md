@@ -54,6 +54,8 @@ Make sure these are reflected in `README.md` (some already are):
 - [ ] Add section: “How to use the app once it’s running” (selecting Pokémon, building a team, clearing team etc.)
     - In that section, you can walk the user through using the tool in the browser – for example: selecting a game version and sprite set, adding Pokémon to the team (click to add, double-click to remove), and viewing the weakness breakdown table. Essentially, explain the UI controls and what the user should do to build their team and interpret the results. This will help non-developers understand the app’s functionality.
 - [x] ✅ Add message that works on latest stable version of browsers.
+
+
 ---
 
 ## 🚀 MVP Planning
