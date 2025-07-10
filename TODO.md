@@ -126,10 +126,7 @@ These are entirely optional and relevant only if the project will be used or con
   - Should describe how to lint, test, and format code
   - Mention if PRs are welcome and any project-specific conventions
 - [ ] Screenshots/Demo (optional): If feasible, adding a screenshot or animated GIF of the app in action can be very effective. For example, show the interface with a team built and the weakness table displayed. This isn’t required, but a visual can attract interest. You can always add this once the UI is polished.
-- [ ] [Live API Docs](https://jennifert.github.io/Pokemon-Team-Builder/) — Auto-generated [JSDoc](https://jsdoc.app/) documentation
-Optional GitHub Pages Tip:
-Go to repo Settings → Pages → Source: docs/ → Save. Your docs will be live at:
-https://your-username.github.io/repo-name 
+- [x] [Live API Docs](https://jennifert.github.io/Pokemon-Team-Builder/) — Auto-generated [JSDoc](https://jsdoc.app/) documentation
 
 ### 📦 Tooling (Optional Enhancements)
 - [ ] Try `axe-playwright` or `jest-axe` for accessibility testing in automated tests

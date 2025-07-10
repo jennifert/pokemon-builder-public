@@ -210,6 +210,8 @@ Rather than removing them (and risking regression or inconsistency), they’re e
 
 This project uses [JSDoc](https://jsdoc.app/) to generate documentation from code comments.
 
+- [Live API Docs](https://jennifert.github.io/pokemon-builder-public-docs/) — Auto-generated [JSDoc](https://jsdoc.app/) documentation
+
 #### To regenerate documentation locally:
 
 ```bash
