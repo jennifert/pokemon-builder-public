@@ -75,7 +75,7 @@ Defined via [Browserslist](https://github.com/browserslist/browserslist) for Pos
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/jennifert/Pokemon-Team-Builder.git
+git clone https://github.com/jennifert/pokemon-builder-public.git
 cd pokemon-builder
 ```
 
