@@ -137,8 +137,6 @@ http://localhost:5173
 
 🔍 [View full folder structure ›](FOLDER_STRUCTURE.md)
 
-
-
 ---
 
 ## 📜 NPM Scripts
@@ -161,7 +159,7 @@ http://localhost:5173
 ## 📘 Documentation
 
 - [`TODO.md`](./TODO.md) — Full roadmap and implementation plan
-- [`docs/`](./docs/) — Auto-generated [JSDoc](https://jsdoc.app/) documentation for all source files
+- [Live API Docs](https://jennifert.github.io/pokemon-builder-public-docs/) — Auto-generated [JSDoc](https://jsdoc.app/) documentation
 
 ### 🧩 Code Design Notes
 
@@ -196,8 +194,6 @@ Rather than removing them (and risking regression or inconsistency), they’re e
 ### 🧪 JSDoc Reference
 
 This project uses [JSDoc](https://jsdoc.app/) to generate documentation from code comments.
-
-- [Live API Docs](https://jennifert.github.io/pokemon-builder-public-docs/) — Auto-generated [JSDoc](https://jsdoc.app/) documentation
 
 #### To regenerate documentation locally:
 
