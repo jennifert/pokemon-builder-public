@@ -43,7 +43,7 @@ These tasks are now considered high-priority for code clarity and polish:
 ## ⚡️ Performance
 
 - [ ] Lazy-load large data files only when needed
-- [ ] Add loading spinners or feedback when fetching data
+- [ ] Add loading spinners or feedback when fetching data: see src/js/loading-messages.js
 
 ---
 
