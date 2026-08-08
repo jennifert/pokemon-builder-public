@@ -2,7 +2,6 @@
 
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Architecture](https://img.shields.io/badge/Architecture-Data--Driven-success)
-![Offline](https://img.shields.io/badge/Offline-First-blue)
 [![Frontend](https://img.shields.io/badge/frontend-Vanilla_JS-yellow)](https://developer.mozilla.org/docs/Web/JavaScript)
 [![Pico CSS](https://img.shields.io/badge/CSS-Pico-1095C1)](https://picocss.com/)
 [![Data](https://img.shields.io/badge/Data-JSON-success)](https://www.json.org/)
