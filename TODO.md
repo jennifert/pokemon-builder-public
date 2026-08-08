@@ -2,8 +2,6 @@
 
 This document tracks current development tasks, enhancements, and future features. Tasks are grouped roughly by priority.
 
----
-
 ## 🔧 Immediate Fixes & Improvements
 
 These are the next practical cleanup and polish tasks:
@@ -31,8 +29,6 @@ These are the next practical cleanup and polish tasks:
 
   Then update the ESLint configuration as appropriate for the installed ESLint/plugin versions.
 
----
-
 ## ✅ Completed Refactor Work
 
 - [x] Add `generations.json` as the supported-generation index.
@@ -50,8 +46,6 @@ These are the next practical cleanup and polish tasks:
 - [x] Move from Tailwind styling to Pico CSS.
 - [x] Confirm locally hosted PokeAPI sprites work with the selected sprite set.
 
----
-
 ## 🧹 Code Organization
 
 - [ ] Consider adding `src/js/generation.js` once `ui.js` starts getting large.
@@ -65,8 +59,6 @@ These are the next practical cleanup and polish tasks:
 - [ ] Remove unused variables and old comments left from the Gen 1-only implementation.
 - [ ] Add consistent error messages for missing/malformed data files.
 
----
-
 ## 💡 Dev Quality
 
 - [ ] Double-check the app with the Axe DevTools browser extension.
@@ -74,8 +66,6 @@ These are the next practical cleanup and polish tasks:
 - [ ] Verify `npm run build` produces a clean deployable build.
 - [ ] Consider adding JSON validation for generation data so malformed files are caught early.
 - [ ] Consider adding a shared schema/document describing the expected structure of `gen1.json`, `gen2.json`, etc.
-
----
 
 ## 📦 Deployment
 
@@ -85,8 +75,6 @@ These are the next practical cleanup and polish tasks:
 - [ ] Document deployment steps.
 - [ ] Keep/update the existing hosted demo after the refactor is stable.
 
----
-
 ## ⚡ Performance
 
 - [x] Load generation Pokémon data only after a generation is selected.
@@ -95,8 +83,6 @@ These are the next practical cleanup and polish tasks:
 - [ ] Avoid refetching the same selected generation data while the user remains on that generation.
 - [ ] Consider caching previously loaded generations in memory if switching between generations becomes common.
 - [ ] Consider sprite image lazy-loading if later generations make the results page noticeably heavier.
-
----
 
 ## 📝 README Enhancements
 
@@ -121,7 +107,6 @@ Make sure these are reflected in `README.md`:
 - [x] Mention that sprites are sourced from the PokeAPI sprites repository and served from a local copy.
 - [x] Add message that the app targets latest stable browser versions.
 
----
 
 # 🚀 Release / MVP Planning
 
@@ -153,7 +138,6 @@ Core features to complete before the first stable release:
 - [ ] Show exact multipliers such as `4×`, `2×`, `½×`, and `¼×`.
 - [ ] Add Pokédex links using the generation `serebiiDex` data.
 
----
 
 ## 🧬 MVP 2 — Generation II Expansion
 
@@ -205,8 +189,6 @@ These are useful ideas, but are not required for the first stable Gen 1 release:
 - [ ] Add additional generations after Gen 3.
 - [ ] Consider region filters if useful once multiple regions/generations are supported.
 
----
-
 ## Accessibility Fixes
 
 ### 🔍 Manual Accessibility Checks
@@ -235,8 +217,6 @@ These are useful ideas, but are not required for the first stable Gen 1 release:
 - [ ] Consider Prettier for consistent HTML, JavaScript, CSS, JSON, and Markdown formatting.
 - [ ] Add automated JSON validation to CI.
 
----
-
 ## 🧪 Testing
 
 - [ ] Add basic unit tests for generation data loading.
@@ -248,8 +228,6 @@ These are useful ideas, but are not required for the first stable Gen 1 release:
 - [ ] Add tests ensuring switching generations clears incompatible party state.
 - [ ] Consider Vitest for JavaScript unit tests.
 - [ ] Consider Playwright for browser-level integration/accessibility tests.
-
----
 
 ## 📘 Optional Documentation & Community
 
@@ -263,8 +241,6 @@ These are optional and mainly useful if others begin contributing:
   - Explain how to add a new generation.
 - [ ] Add a data-contribution guide for Pokémon JSON corrections/additions.
 - [x] [Live API Docs](https://jennifert.github.io/Pokemon-Team-Builder/) — Auto-generated [JSDoc](https://jsdoc.app/) documentation.
-
----
 
 ## 📦 Tooling — Optional Enhancements
 
