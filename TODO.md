@@ -174,8 +174,6 @@ Introduce Ruby/Sapphire/Emerald using the same data-driven architecture:
 - [ ] Test all existing generic filters against Gen 3.
 - [ ] Add region metadata/filtering only if it provides useful behavior beyond the generation selector.
 
----
-
 ## 🔮 Future Features
 
 These are useful ideas, but are not required for the first stable Gen 1 release:
