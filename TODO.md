@@ -61,7 +61,7 @@ These are the next practical cleanup and polish tasks:
   - Update generation title/description.
   - Keep `ui.js` focused mainly on event listeners.
 - [ ] Review `type-utils.js` and remove any unused parameters/functions left from the old type-chart implementation.
-- [ ] Remove `types.js` completely if no remaining imports depend on it.
+- [x] Remove `types.js` completely if no remaining imports depend on it.
 - [ ] Remove unused variables and old comments left from the Gen 1-only implementation.
 - [ ] Add consistent error messages for missing/malformed data files.
 
@@ -91,7 +91,7 @@ These are the next practical cleanup and polish tasks:
 
 - [x] Load generation Pokémon data only after a generation is selected.
 - [ ] Add loading feedback while fetching generation data.
-- [ ] Review `src/js/loading-messages.js` and use it if still appropriate.
+- [x] Review `src/js/loading-messages.js` and use it if still appropriate.
 - [ ] Avoid refetching the same selected generation data while the user remains on that generation.
 - [ ] Consider caching previously loaded generations in memory if switching between generations becomes common.
 - [ ] Consider sprite image lazy-loading if later generations make the results page noticeably heavier.
@@ -102,12 +102,12 @@ These are the next practical cleanup and polish tasks:
 
 Make sure these are reflected in `README.md`:
 
-- [ ] Update the architecture/data section to explain:
+- [x] Update the architecture/data section to explain:
   - `generations.json`
   - generation-specific JSON files
   - data-driven versions and sprite sets
   - JSON-based weakness calculations
-- [ ] Add a “How to use the app” section:
+- [x] Add a “How to use the app” section:
   - Select a generation.
   - Select a sprite set.
   - Select a game version.
@@ -118,7 +118,7 @@ Make sure these are reflected in `README.md`:
 - [ ] Remove references to double-clicking Pokémon if still present.
 - [ ] Add screenshots of the updated Pico interface.
 - [ ] Add a screenshot showing a completed party and team defensive matchup table.
-- [ ] Mention that sprites are sourced from the PokeAPI sprites repository and served from a local copy.
+- [x] Mention that sprites are sourced from the PokeAPI sprites repository and served from a local copy.
 - [x] Add message that the app targets latest stable browser versions.
 
 ---
