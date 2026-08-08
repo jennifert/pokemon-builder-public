@@ -3,6 +3,14 @@
  * @description A list of funny, Pokémon-themed loading messages and a utility function to fetch one at random.
  */
 /**
+
+ * Optional loading messages.
+ *
+ * These are primarily intended for future desktop/native versions
+ * where application startup or long-running operations benefit from
+ * displaying a friendly status message.
+ */
+/**
  * Pokémon-themed loading messages grouped by category.
  *
  * @typedef {Object} LoadingMessageGroups
