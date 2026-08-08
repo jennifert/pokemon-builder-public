@@ -1,35 +1,57 @@
 /**
  * @file team.js
- * @description Analyzes the type distribution of the current Pokémon party.
- * - Counts type occurrences
- * - Passes data to display for rendering the Team Weakness Table
+ * @description Analyzes defensive type matchups for the current Pokémon party.
+ * - Reads weakness data from the selected generation JSON
+ * - Counts how many party members are weak, resistant, immune, or neutral to each type
+ * - Passes the results to the display layer
  */
-import { fetchDexEntries } from './fetch.js';
+
 import { party } from './party.js';
 import { displayTeamWeaknessTable } from './display.js';
 
 /**
- * Calculates how many party Pokémon have each type (e.g., water, fire).
- * Sends the results to `displayTeamWeaknessTable` for rendering.
- * 
+ * Calculates the team's defensive matchups using the currently
+ * selected generation data.
+ *
+ * @param {Object|null} generationData
  * @returns {void}
  */
-export function calculateTeamWeaknesses() {
-  fetchDexEntries().then(dexResults => {
-    const pokemonList = dexResults['pokemon'];
-    const typeCounts = {};
+export function calculateTeamWeaknesses(generationData) {
+  if (!generationData) {
+    displayTeamWeaknessTable({});
+    return;
+  }
 
-    for (let dexId of party) {
-      const mon = pokemonList.find(p => p.dexId === dexId);
-      if (!mon) continue;
+  const pokemonList = generationData.pokemon;
 
-      const types = mon.types.map(t => t.toLowerCase());
+  const typeAnalysis = {};
 
-      for (let type of types) {
-        typeCounts[type] = (typeCounts[type] || 0) + 1;
+  for (const dexId of party) {
+    const mon = pokemonList.find(pokemon => pokemon.dexId === dexId);
+
+    if (!mon) continue;
+
+    for (const [type, multiplier] of Object.entries(mon.weaknesses)) {
+      if (!typeAnalysis[type]) {
+        typeAnalysis[type] = {
+          weak: 0,
+          resistant: 0,
+          immune: 0,
+          neutral: 0
+        };
+      }
+
+      if (multiplier === 0) {
+        typeAnalysis[type].immune += 1;
+      } else if (multiplier > 1) {
+        typeAnalysis[type].weak += 1;
+      } else if (multiplier < 1) {
+        typeAnalysis[type].resistant += 1;
+      } else {
+        typeAnalysis[type].neutral += 1;
       }
     }
+  }
 
-    displayTeamWeaknessTable(typeCounts);
-  });
+  displayTeamWeaknessTable(typeAnalysis);
 }

@@ -1,0 +1,14 @@
+{
+  "generations": [
+    {
+      "id": 1,
+      "name": "Generation I",
+      "file": "gen1.json"
+    },
+    {
+      "id": 2,
+      "name": "Generation II",
+      "file": "gen2.json"
+    }
+  ]
+}

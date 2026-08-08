@@ -7,27 +7,31 @@
     <title>Pokémon Team Builder</title>
     <!-- <meta name="color-scheme" content="dark light"> -->
     <meta name="twitter:dnt" content="on">
+    <!-- <link rel="stylesheet" href="/src/css/style.css" /> -->
+
+    <link rel="stylesheet" href="/src/css/pico.min.css" />
     <link rel="stylesheet" href="/src/css/style.css" />
 </head>
 
-<body>
+<body class="container">
     <header>
-        <h1>Pokemon Team Evaluator - Early Generations</h1>
+        <h1>Pokémon Team Evaluator</h1>
     </header>
 
     <main id="main-content">
-        <h2>Generation 1</h2>
-        <p>This is a team builder for Red, Blue, and Yellow. </p>
         <p>Use the controls below to select your desired sprites, and if you want to see the final evolutions only. Once
             the sprites load, click on one to add to your team, or double click to remove sprite.</p>
         <p>All fields are required. Glitches or other hacks are not taken into consideration.</p>
-        <form id="TeamForm">
+        <!-- <form id="TeamForm">
             <fieldset>
                 <legend>Pokemon Options</legend>
 
                 <div class="form-group">
                     <label for="sprite">Sprite:</label>
                     <select id="sprite" name="sprite">
+                        <option selected disabled value="">
+                            Select sprite varation
+                        </option>
                         <option value="red-blue" selected>Red &amp; Blue</option>
                         <option value="yellow">Yellow</option>
                     </select>
@@ -36,6 +40,10 @@
                 <div class="form-group">
                     <label for="version">Version:</label>
                     <select id="version" name="version">
+
+                        <option selected disabled value="">
+                            Select game version
+                        </option>
                         <option value="blue" selected>Blue</option>
                         <option value="red" selected>Red</option>
                         <option value="yellow">Yellow</option>
@@ -81,6 +89,72 @@
                     </button>
                 </div>
 
+            </fieldset>
+
+        </form> -->
+
+        <section id="generationInfo" hidden>
+            <h2 id="generationTitle"></h2>
+            <p id="generationDescription"></p>
+        </section>
+
+        <form id="TeamForm">
+
+            <fieldset>
+                <legend>Generation</legend>
+
+                <label for="generation">Generation:</label>
+                <select id="generation" name="generation" required>
+                    <option selected disabled value="">
+                        Select Pokémon generation
+                    </option>
+                </select>
+            </fieldset>
+
+            <fieldset id="generationOptions" disabled>
+                <legend>Pokémon Options</legend>
+
+                <label for="sprite">Sprite:</label>
+                <select id="sprite" name="sprite" required>
+                    <option selected disabled value="">
+                        Select sprite variation
+                    </option>
+                </select>
+
+                <label for="version">Version:</label>
+                <select id="version" name="version" required>
+                    <option selected disabled value="">
+                        Select game version
+                    </option>
+                </select>
+
+                <label for="evolution">Only Final Evolutions</label>
+                <select id="evolution" name="evolution">
+                    <option value="no" selected>No</option>
+                    <option value="yes">Yes</option>
+                </select>
+
+                <label for="evolve">Remove Trade Evolutions</label>
+                <select id="evolve" name="evolve">
+                    <option value="no" selected>No</option>
+                    <option value="yes">Yes</option>
+                </select>
+
+                <label for="unobtainable">Remove Version Exclusives</label>
+                <select id="unobtainable" name="unobtainable">
+                    <option value="no">No</option>
+                    <option value="yes" selected>Yes</option>
+                </select>
+
+                <label for="legends">Include Legendary Pokémon?</label>
+                <select id="legends" name="legends">
+                    <option value="no">No</option>
+                    <option value="yes" selected>Yes</option>
+                </select>
+
+                <button type="submit">
+                    Show Pokémon
+                </button>
             </fieldset>
 
         </form>

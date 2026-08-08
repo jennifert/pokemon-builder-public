@@ -4,6 +4,22 @@
  * These provide access to user input fields and result containers.
  */
 
+
+/**
+ * @type {HTMLSelectElement}
+ * @description Dropdown for choosing a Pokémon generation
+ */
+export const selectedGeneration = document.getElementById('generation');
+
+/**
+ * @type {HTMLFieldSetElement}
+ * @description Generation-dependent form controls
+ */
+export const generationOptions = document.getElementById('generationOptions');
+export const generationTitle = document.getElementById('generationTitle');
+export const generationDescription = document.getElementById('generationDescription');
+export const generationInfo = document.getElementById('generationInfo');
+
 /**
  * @type {HTMLSelectElement}
  * @description Dropdown for choosing sprite style

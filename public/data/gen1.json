@@ -1,7 +1,38 @@
 {
     "gameGeneration": 1,
-    "gameIssues": "https://bulbapedia.bulbagarden.net/wiki/Generation_I#Issues_and_bugs",
-    "serebiiDex": "https://www.serebii.net/pokedex/000.shtml",
+    "displayName": "Generation I",
+    "description": "Pokémon Red, Blue, and Yellow",
+
+    "versions": [
+        {
+            "id": "red",
+            "name": "Red"
+        },
+        {
+            "id": "blue",
+            "name": "Blue"
+        },
+        {
+            "id": "yellow",
+            "name": "Yellow"
+        }
+    ],
+    "spriteSets": [
+        {
+            "id": "red-blue",
+            "name": "Red & Blue"
+        },
+        {
+            "id": "yellow",
+            "name": "Yellow"
+        }
+    ],
+
+    "links": {
+        "issues": "https://bulbapedia.bulbagarden.net/wiki/Generation_I#Issues_and_bugs",
+        "pokedex": "https://www.serebii.net/pokedex/000.shtml"
+
+    },
     "imageSrc": "img/generation-i/",
     "pokemon": [
         {

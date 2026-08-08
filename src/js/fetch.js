@@ -16,11 +16,33 @@ import {
 } from './state.js';
 
 /**
- * Fetches the Gen 1 Pokédex entries from a local JSON file.
- * @returns {Promise<Object>} A Promise resolving to parsed Dex data including images and Pokémon.
+ * Fetches the list of supported generations.
+ *
+ * @returns {Promise<Object>}
  */
-export async function fetchDexEntries() {
-  const response = await fetch('data/gen1.json');
+export async function fetchGenerations() {
+  const response = await fetch('/data/generations.json');
+
+  if (!response.ok) {
+    throw new Error('Unable to load generation data.');
+  }
+
+  return await response.json();
+}
+
+/**
+ * Fetches data for a selected Pokémon generation.
+ *
+ * @param {string} file - JSON filename for the selected generation
+ * @returns {Promise<Object>}
+ */
+export async function fetchDexEntries(file) {
+  const response = await fetch(`/data/${file}`);
+
+  if (!response.ok) {
+    throw new Error(`Unable to load ${file}.`);
+  }
+
   return await response.json();
 }
 
@@ -65,11 +87,10 @@ export function ViewPokemon(dexResults) {
     if (selectedEvolve.value === 'yes' && tradeEvolve) continue;
 
     if (
-      (selectedVersion.value === 'red' && unobtainable.includes('red')) ||
-      (selectedVersion.value === 'blue' && unobtainable.includes('blue')) ||
-      (selectedVersion.value === 'yellow' && unobtainable.includes('yellow'))
+      selectedUnobtainable.value === 'yes' &&
+      unobtainable.includes(selectedVersion.value)
     ) {
-      if (selectedUnobtainable.value === 'yes') continue;
+      continue;
     }
 
     if (selectedEvolution.value === 'yes' && !finalForm) continue;
