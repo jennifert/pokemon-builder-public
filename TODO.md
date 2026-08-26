@@ -54,9 +54,8 @@ These are the next practical cleanup and polish tasks:
   - Populate version options.
   - Update generation title/description.
   - Keep `ui.js` focused mainly on event listeners.
-- [ ] Review `type-utils.js` and remove any unused parameters/functions left from the old type-chart implementation.
+- [x] Review `type-utils.js` and remove any unused parameters/functions left from the old type-chart implementation.
 - [x] Remove `types.js` completely if no remaining imports depend on it.
-- [ ] Remove unused variables and old comments left from the Gen 1-only implementation.
 - [ ] Add consistent error messages for missing/malformed data files.
 
 ## 💡 Dev Quality
@@ -69,11 +68,11 @@ These are the next practical cleanup and polish tasks:
 
 ## 📦 Deployment
 
-- [ ] Confirm `vite.config.js` builds into `/dist`.
-- [ ] Verify Pico CSS and local sprite/data assets are included correctly in production builds.
-- [ ] Verify root-relative `/data/...` paths work correctly in the chosen production hosting environment.
+- [x] Confirm `vite.config.js` builds into `/dist`.
+- [x] Verify Pico CSS and local sprite/data assets are included correctly in production builds.
+- [x] Verify root-relative `/data/...` paths work correctly in the chosen production hosting environment.
 - [ ] Document deployment steps.
-- [ ] Keep/update the existing hosted demo after the refactor is stable.
+- [x] Keep/update the existing hosted demo after the refactor is stable.
 
 ## ⚡ Performance
 
@@ -121,9 +120,9 @@ Core features to complete before the first stable release:
 - [x] Team weakness/resistance/immunity summary.
 - [x] Generation-aware architecture in place.
 - [x] Pico CSS migration.
-- [ ] Polish party display.
-- [ ] Polish results display.
-- [ ] Improve team matchup table readability.
+- [x] Polish party display.
+- [x] Polish results display.
+- [x] Improve team matchup table readability.
 - [ ] Add graceful fetch/data errors.
 - [ ] Complete accessibility checks.
 - [ ] Update README and screenshots.
