@@ -1,8 +1,9 @@
 /**
  * @file fetch.js
- * @description Handles fetching and rendering Pokémon data.
- * 
- * - `fetchDexEntries()` retrieves Pokémon data from a JSON file.
+ * @description Handles loading, validating, filtering, and rendering Pokémon data.
+ *
+ * - `fetchGenerations()` retrieves the supported generation list.
+ * - `fetchDexEntries()` retrieves and validates generation data.
  * - `ViewPokemon()` filters and displays Pokémon based on user-selected criteria.
  */
 import {
@@ -24,10 +25,67 @@ export async function fetchGenerations() {
   const response = await fetch('/data/generations.json');
 
   if (!response.ok) {
-    throw new Error('Unable to load generation data.');
+    throw new Error('Unable to load the generation list.');
   }
 
-  return await response.json();
+  try {
+    const data = await response.json();
+    return validateGenerationList(data);
+  } catch (error) {
+    if (error instanceof SyntaxError) {
+      throw new Error(
+        'The generation list contains invalid JSON.'
+      );
+    }
+
+    throw error;
+  }
+}
+
+/**
+ * Validates required fields in generation data.
+ *
+ * @param {Object} data - Parsed generation JSON data
+ * @returns {Object} Validated generation data
+ * @throws {Error} If required generation data is missing
+ */
+function validateGenerationData(data) {
+  if (
+    !data ||
+    typeof data !== 'object' ||
+    typeof data.displayName !== 'string' ||
+    typeof data.description !== 'string' ||
+    typeof data.imageSrc !== 'string' ||
+    !Array.isArray(data.spriteSets) ||
+    !Array.isArray(data.versions) ||
+    !Array.isArray(data.pokemon)
+  ) {
+    throw new Error(
+      'The selected generation data is missing required information.'
+    );
+  }
+
+  return data;
+}
+
+/**
+ * Validates the supported generation list.
+ *
+ * @param {Object} data - Parsed generation JSON data
+ * @returns {Object} Validated generation data
+ * @throws {Error} If required generation data is missing
+ */
+function validateGenerationList(data) {
+  if (
+    !data ||
+    typeof data !== 'object' ||
+    !Array.isArray(data.generations)
+  ) {
+    throw new Error(
+      'The generation list is missing required information.'
+    );
+  }
+  return data;
 }
 
 /**
@@ -43,7 +101,16 @@ export async function fetchDexEntries(file) {
     throw new Error(`Unable to load ${file}.`);
   }
 
-  return await response.json();
+  try {
+    const data = await response.json();
+    return validateGenerationData(data);
+  } catch (error) {
+    if (error instanceof SyntaxError) {
+      throw new Error(`The data in ${file} is not valid JSON.`);
+    }
+
+    throw error;
+  }
 }
 
 /**
@@ -54,29 +121,40 @@ export async function fetchDexEntries(file) {
  * @returns {void}
  */
 export function ViewPokemon(dexResults) {
-  let imageSrc = dexResults['imageSrc'] + selectedSprites.value + '/transparent/';
-  let pokemon = dexResults['pokemon'];
-  let htmlPosition = 'beforeend';
+  const imageSrc =
+    dexResults['imageSrc'] +
+    selectedSprites.value +
+    '/transparent/';
 
-  // Clear previous content first
+  const pokemon = dexResults['pokemon'];
+  const htmlPosition = 'beforeend';
+
+  let matchingPokemon = 0;
+
   results.innerHTML = '';
 
-  // Insert heading at the top
-  results.insertAdjacentHTML('beforeend', '<h2>Available Pokémon</h2>');
-
-  for (let entry in pokemon) {
-    let dexId = pokemon[entry]['dexId'];
+  for (const entry in pokemon) {
+    const dexId = pokemon[entry]['dexId'];
     const tradeEvolve = pokemon[entry]['evolve']['trade'];
-    let name = pokemon[entry]['name'];
-    let finalForm = pokemon[entry]['finalForm'];
-    let isLegendary = pokemon[entry]['isLegendary'];
-    let types = pokemon[entry]['types'].join();
-    let unobtainable = pokemon[entry]['unobtainable'];
+    const name = pokemon[entry]['name'];
+    const finalForm = pokemon[entry]['finalForm'];
+    const isLegendary = pokemon[entry]['isLegendary'];
+    const types = pokemon[entry]['types'].join();
+    const unobtainable = pokemon[entry]['unobtainable'];
 
-    let imageName = dexId.replace(/^0+/, '');
-    let pokedexResults = `<span><img src="${imageSrc + imageName}.png" alt="${name}" data-name="${name}" data-types="${types}" data-pokdex="${dexId}"></span>`;
+    const imageName = dexId.replace(/^0+/, '');
+    const pokedexResults = `
+      <span>
+        <img
+          src="${imageSrc + imageName}.png"
+          alt="${name}"
+          data-name="${name}"
+          data-types="${types}"
+          data-pokdex="${dexId}"
+        >
+      </span>
+    `;
 
-    // Apply user-selected filters
     if (selectedLegendary.value === 'no' && isLegendary) continue;
     if (selectedEvolve.value === 'yes' && tradeEvolve) continue;
 
@@ -89,6 +167,13 @@ export function ViewPokemon(dexResults) {
 
     if (selectedEvolution.value === 'yes' && !finalForm) continue;
 
+    matchingPokemon += 1;
+
     results.insertAdjacentHTML(htmlPosition, pokedexResults);
   }
+
+  results.insertAdjacentHTML(
+    'afterbegin',
+    `<h2>Available Pokémon (${matchingPokemon})</h2>`
+  );
 }

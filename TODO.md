@@ -34,13 +34,13 @@ Focus: finish remaining Generation I behavior and clean up the application befor
   - Click a Pokémon to add it to the party.
   - Click it again to remove it.
   - Remove the old “double click to remove” wording.
-- [ ] Show party count.
+- [x] Show party count.
   - Example: `Party (3/6)`
-- [ ] Show number of matching Pokémon.
+- [x] Show number of matching Pokémon.
   - Example: `Available Pokémon (82)`
-- [ ] Add loading feedback while generation data is being fetched.
-- [ ] Add user-friendly error handling when generation JSON fails to load.
-- [ ] Add consistent errors for missing or malformed generation data.
+- [x] Add loading feedback while generation data is being fetched.
+- [x] Add user-friendly error handling when generation JSON fails to load.
+- [x] Add consistent errors for missing or malformed generation data.
 
 ## Cleanup
 
@@ -54,24 +54,24 @@ Focus: finish remaining Generation I behavior and clean up the application befor
 
 Test all Generation I functionality before moving to the accessibility release.
 
-- [ ] Generation I loads correctly.
-- [ ] Red/Blue/Yellow version filtering works correctly.
-- [ ] Sprite-set selection works correctly.
-- [ ] Final-evolution filtering works correctly.
-- [ ] Trade-evolution filtering works correctly.
-- [ ] Version-exclusive filtering works correctly.
-- [ ] Legendary filtering works correctly.
-- [ ] Pokémon can be added to the party.
-- [ ] Pokémon can be removed from the party.
-- [ ] Party cannot exceed six Pokémon.
-- [ ] Clear Party works correctly.
-- [ ] Clear Party hides when the party becomes empty.
-- [ ] Party count stays accurate.
-- [ ] Available Pokémon count stays accurate.
-- [ ] Weak / Resist / Immune / Neutral totals are correct.
-- [ ] Empty-party behavior works correctly.
-- [ ] Changing filters and showing Pokémon repeatedly does not produce stale state.
-- [ ] Refreshing/reloading the application works correctly.
+- [x] Generation I loads correctly.
+- [x] Red/Blue/Yellow version filtering works correctly.
+- [x] Sprite-set selection works correctly.
+- [x] Final-evolution filtering works correctly.
+- [x] Trade-evolution filtering works correctly.
+- [x] Version-exclusive filtering works correctly.
+- [x] Legendary filtering works correctly.
+- [x] Pokémon can be added to the party.
+- [x] Pokémon can be removed from the party.
+- [x] Party cannot exceed six Pokémon.
+- [x] Clear Party works correctly.
+- [x] Clear Party hides when the party becomes empty.
+- [x] Party count stays accurate.
+- [x] Available Pokémon count stays accurate.
+- [x] Weak / Resist / Immune / Neutral totals are correct.
+- [x] Empty-party behavior works correctly.
+- [x] Changing filters and showing Pokémon repeatedly does not produce stale state.
+- [x] Refreshing/reloading the application works correctly.
 
 ## Production Build
 

@@ -61,3 +61,9 @@ export const selectedUnobtainable = document.getElementById('unobtainable');
  * @description The container where filtered Pokémon are displayed
  */
 export const results = document.getElementById('results');
+
+/**
+ * @type {HTMLElement}
+ * @description The loading message when JSON fetched
+ */
+export const loadingStatus = document.getElementById('loadingStatus');

@@ -26,6 +26,9 @@ export const party = [];
 export function updatePartyDisplay(generationData) {
 
   const container = document.getElementById('partyDisplay');
+  const partyCount = document.getElementById('partyCount');
+
+  partyCount.textContent = `Party (${party.length}/${maxPartySize})`;
   container.innerHTML = '';
 
   if (!generationData) {

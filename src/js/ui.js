@@ -10,7 +10,7 @@
  */
 
 import { fetchGenerations, fetchDexEntries, ViewPokemon } from './fetch.js';
-import { results,  selectedGeneration, selectedSprites, selectedVersion, generationOptions, generationTitle, generationDescription, generationInfo } from './state.js';
+import { results,  selectedGeneration, selectedSprites, selectedVersion, generationOptions, generationTitle, generationDescription, generationInfo, loadingStatus } from './state.js';
 import { party, updatePartyDisplay, clearParty } from './party.js';
 import { calculateTeamWeaknesses } from './team.js';
 
@@ -21,15 +21,23 @@ let currentGenerationData = null;
  * to the generation dropdown.
  */
 async function loadGenerations() {
-  const generationData = await fetchGenerations();
+  try {
+    const generationData = await fetchGenerations();
 
-  for (const generation of generationData.generations) {
-    const option = document.createElement('option');
+    for (const generation of generationData.generations) {
+      const option = document.createElement('option');
 
-    option.value = generation.file;
-    option.textContent = generation.name;
+      option.value = generation.file;
+      option.textContent = generation.name;
 
-    selectedGeneration.appendChild(option);
+      selectedGeneration.appendChild(option);
+    }
+  } catch (error) {
+    loadingStatus.textContent =
+      `Unable to load available generations. ${error.message}`;
+
+    loadingStatus.hidden = false;
+    selectedGeneration.disabled = true;
   }
 }
 
@@ -87,24 +95,42 @@ function populateVersionOptions(generationData) {
  * a generation.
  */
 selectedGeneration.addEventListener('change', async function () {
-  currentGenerationData =
-    await fetchDexEntries(selectedGeneration.value);
+  loadingStatus.textContent = 'Loading generation data...';
+  loadingStatus.hidden = false;
 
-  populateSpriteOptions(currentGenerationData);
-  populateVersionOptions(currentGenerationData);
+  generationOptions.disabled = true;
 
-  generationTitle.textContent =
-    currentGenerationData.displayName;
+  try {
+    currentGenerationData =
+      await fetchDexEntries(selectedGeneration.value);
 
-  generationDescription.textContent =
-    currentGenerationData.description;
+    populateSpriteOptions(currentGenerationData);
+    populateVersionOptions(currentGenerationData);
 
-  generationInfo.hidden = false;
-  generationOptions.disabled = false;
+    generationTitle.textContent =
+      currentGenerationData.displayName;
 
-  // Clear anything belonging to the previous generation.
-  results.innerHTML = '';
-  clearParty(currentGenerationData);
+    generationDescription.textContent =
+      currentGenerationData.description;
+
+    generationInfo.hidden = false;
+    generationOptions.disabled = false;
+
+    results.innerHTML = '';
+    clearParty(currentGenerationData);
+  } catch (error) {
+    currentGenerationData = null;
+
+    generationInfo.hidden = true;
+    results.innerHTML = '';
+
+    loadingStatus.textContent =
+      `Unable to load generation data. ${error.message}`;
+
+    return;
+  }
+
+  loadingStatus.hidden = true;
 });
 
 

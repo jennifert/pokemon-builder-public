@@ -30,6 +30,8 @@
             consideration.
         </p>
 
+        <p id="loadingStatus" hidden aria-live="polite"></p>
+
         <section id="generationInfo" hidden>
             <h2 id="generationTitle"></h2>
             <p id="generationDescription"></p>
@@ -100,8 +102,8 @@
             <div id="results" class="results-left-icons"></div>
 
             <div id="PartyInfo" class="results-right-party">
-                <strong>Party:</strong>
-                <div id="partyDisplay"class="mt-4"></div>
+                <strong id="partyCount">Party (0/6)</strong>
+                <div id="partyDisplay" class="mt-4"></div>
                 <button id="clearParty" class="mt-4 hidden">
                     Clear Party
                 </button>
