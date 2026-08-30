@@ -127,6 +127,10 @@ selectedGeneration.addEventListener('change', async function () {
     generationInfo.hidden = false;
     generationOptions.disabled = false;
 
+    document
+      .getElementById('generationOptionsHelp')
+      .hidden = true;
+
     results.innerHTML = '';
     clearParty(currentGenerationData);
   } catch (error) {
@@ -134,6 +138,10 @@ selectedGeneration.addEventListener('change', async function () {
 
     generationInfo.hidden = true;
     results.innerHTML = '';
+
+    document
+      .getElementById('generationOptionsHelp')
+      .hidden = false;
 
     loadingStatus.textContent =
       `Unable to load generation data. ${error.message}`;

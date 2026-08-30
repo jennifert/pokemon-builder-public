@@ -41,7 +41,7 @@
         <form id="TeamForm">
 
             <fieldset>
-               <legend>Game Generation</legend>
+                <legend>Game Generation</legend>
 
                 <label for="generation">Generation:</label>
                 <select id="generation" name="generation" required>
@@ -51,8 +51,12 @@
                 </select>
             </fieldset>
 
-            <fieldset id="generationOptions" disabled>
+            <fieldset id="generationOptions" disabled aria-describedby="generationOptionsHelp">
                 <legend>Pokémon Options</legend>
+
+                <p id="generationOptionsHelp">
+                    Select a generation to enable these options.
+                </p>
 
                 <label for="sprite">Sprite:</label>
                 <select id="sprite" name="sprite" required>
