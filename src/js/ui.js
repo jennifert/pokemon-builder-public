@@ -10,7 +10,18 @@
  */
 
 import { fetchGenerations, fetchDexEntries, ViewPokemon } from './fetch.js';
-import { results,  selectedGeneration, selectedSprites, selectedVersion, generationOptions, generationTitle, generationDescription, generationInfo, loadingStatus } from './state.js';
+import {
+  results,
+  selectedGeneration,
+  selectedSprites,
+  selectedVersion,
+  generationOptions,
+  generationTitle,
+  generationDescription,
+  generationInfo,
+  loadingStatus,
+  interactionStatus
+} from './state.js';
 import { party, updatePartyDisplay, clearParty } from './party.js';
 import { calculateTeamWeaknesses } from './team.js';
 
@@ -142,7 +153,7 @@ document
   .getElementById('clearParty')
   .addEventListener('click', () => {
     clearParty(currentGenerationData);
-
+    interactionStatus.textContent = 'Party cleared.';
     calculateTeamWeaknesses(currentGenerationData);
   });
 
@@ -186,14 +197,19 @@ results.addEventListener('click', function (e) {
     button.setAttribute('aria-pressed', 'true');
     button.setAttribute('aria-label', `Remove ${name} from party`);
     button.title = `Remove ${name} from party`;
+
+    interactionStatus.textContent =
+      `${name} added to party. ${party.length} of 6 Pokémon selected.`;
   } else if (party.includes(dexId)) {
     party.splice(party.indexOf(dexId), 1);
-
     button.setAttribute('aria-pressed', 'false');
     button.setAttribute('aria-label', `Add ${name} to party`);
     button.title = `Add ${name} to party`;
+    interactionStatus.textContent =
+      `${name} removed from party. ${party.length} of 6 Pokémon selected.`;
   } else {
-    alert('Party full (6 Pokémon). Click one to remove.');
+    alert('Party full (6 Pokémon). Remove one before adding another.');
+    interactionStatus.textContent = 'Party full. Remove a Pokémon before adding another.';
     return;
   }
 
@@ -204,8 +220,8 @@ results.addEventListener('click', function (e) {
 
 
 /**
- * Removes a Pokémon from the party when clicked
- * inside the party display area.
+ * Removes a Pokémon from the party when its party button
+ * is activated.
  */
 document
   .getElementById('partyDisplay')
@@ -218,10 +234,13 @@ document
     const index = party.indexOf(dexId);
 
     if (index !== -1) {
+      const name =
+        target.querySelector('.party-info-name')?.textContent.trim();
       party.splice(index, 1);
+      interactionStatus.textContent =
+        `${name} removed from party. ${party.length} of 6 Pokémon selected.`;
 
       updatePartyDisplay(currentGenerationData);
-
       calculateTeamWeaknesses(currentGenerationData);
     }
   });

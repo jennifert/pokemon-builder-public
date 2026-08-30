@@ -67,3 +67,9 @@ export const results = document.getElementById('results');
  * @description The loading message when JSON fetched
  */
 export const loadingStatus = document.getElementById('loadingStatus');
+
+/**
+ * @type {HTMLElement}
+ * @description Live status region for party interaction updates.
+ */
+export const interactionStatus = document.getElementById('interactionStatus');

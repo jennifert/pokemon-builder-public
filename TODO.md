@@ -110,7 +110,7 @@ Focus: perform the dedicated accessibility pass and resolve issues before the st
 - [x] Use labels for generation and filter controls.
 - [x] Review whether party Pokémon should use `<button>` elements instead of clickable `<div>` elements.
 - [x] Review available Pokémon interaction semantics.
-- [ ] Add `aria-live` where useful for changing party/results information.
+- [x] Add `aria-live` where useful for changing party/results information.
 - [x] Verify sprite `alt` text.
 - [ ] Verify disabled generation-dependent controls are announced clearly.
 - [x] Verify defensive matchup table headings and structure.
