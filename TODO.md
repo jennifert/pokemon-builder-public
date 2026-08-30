@@ -99,7 +99,7 @@ Focus: perform the dedicated accessibility pass and resolve issues before the st
 - [x] Test removing Pokémon using the keyboard.
 - [x] Test Clear Party using the keyboard.
 - [x] Test form controls using the keyboard.
-- [ ] Test with a screen reader such as VoiceOver or NVDA.
+- [x] Test with a screen reader such as VoiceOver or NVDA.
 - [x] Verify visible focus indicators.
 - [x] Verify sufficient color contrast.
 - [x] Verify hover, focus and disabled states remain understandable.

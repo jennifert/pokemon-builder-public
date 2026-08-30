@@ -181,8 +181,13 @@ document
     }
 
     results.innerHTML = '';
+    interactionStatus.textContent = '';
 
     ViewPokemon(currentGenerationData);
+
+    requestAnimationFrame(() => {
+      interactionStatus.textContent = 'Available Pokémon loaded.';
+    });
   });
 
 

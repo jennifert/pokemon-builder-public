@@ -38,7 +38,7 @@ export function updatePartyDisplay(generationData) {
   container.innerHTML = '';
 
   if (!generationData) {
-    container.innerHTML = '<em>(empty)</em>';
+    container.innerHTML = '<em>Party is empty.</em>';
     return;
   }
 
@@ -82,7 +82,7 @@ export function updatePartyDisplay(generationData) {
   }
 
   if (party.length === 0) {
-    container.innerHTML += '<em>(empty)</em>';
+    container.innerHTML += '<em>Party is empty.</em>';
   }
 }
 
