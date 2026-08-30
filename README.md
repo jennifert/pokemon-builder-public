@@ -28,29 +28,32 @@ The application is designed around reusable generation data files, allowing new 
 
 ## 🚧 Project Status
 
-Current Release: **0.7.0**
+Current Development Version: **0.9.0**
 
-Implemented
+Implemented:
 
 - Generation I
 - Dynamic generation loading
 - Data-driven architecture
 - Team defensive analysis
-- Pico CSS interface
-- Responsive party layout
+- Version and evolution filtering
+- Pico CSS responsive interface
+- Keyboard-accessible Pokémon and party controls
+- Automated accessibility testing with axe-core
+- Accessible defensive matchup table
 
-In Progress
+In Progress:
 
-- Generation I final features and cleanup
-- Testing and error handling
-- Accessibility and release readiness
+- Screen reader testing
+- Final accessibility verification
+- Generation I stable-release preparation
 
 Generation II support is planned for **v1.1.0**, after the Generation I stable release.
 
 ### Release Roadmap
 
-- **v0.8** — Generation I final features, cleanup, and testing
-- **v0.9** — Accessibility and release readiness
+- **v0.8.0** — Generation I final features, cleanup, and testing
+- **v0.9.0** — Accessibility and release readiness
 - **v1.0.0** — Generation I stable release
 - **v1.0.x** — Maintenance releases, including dependency and tooling updates
 - **v1.1.0** — Generation II
@@ -83,7 +86,7 @@ This project does **not** distribute or claim ownership of any Pokémon intellec
 - Bundler: Vite
 - Data: JSON
 - Documentation: JSDoc
-- Linting: ESLint, Stylelint
+- Linting: ESLint, Stylelint, html-validate
 - Accessibility: axe-core CLI
 
 ### Version Information
@@ -128,10 +131,9 @@ Instead, download them manually from the PokeAPI sprites repo:
 git clone https://github.com/PokeAPI/sprites.git
 ```
 
-Then copy the following folders into your local project directory. Please note generation-ii is for future:
+Then copy the Generation I sprite folder into your local project directory:
 ```
 sprites/sprites/pokemon/versions/generation-i
-sprites/sprites/pokemon/versions/generation-ii
 ```
 
 Paste them under:
@@ -142,7 +144,6 @@ pokemon-builder/public/img/
 You should now have:
 ```
 pokemon-builder-public/public/img/generation-i
-pokemon-builder-public/public/img/generation-ii
 ```
 
 3. **Install Dependencies**
@@ -185,12 +186,11 @@ http://localhost:5173
 │   ├── data/
 │   │   ├── generations.json    # Available Pokémon generations
 │   │   ├── gen1.json           # Generation I game and Pokémon data
-│   │   ├── gen2.json           # Generation II game and Pokémon data
+│   │   ├── gen2.json           # Generation II data (future support)
 │   │   └── ...                 # Future generation data
 │   │
 │   └── img/
 │       ├── generation-i/       # Generation I sprites
-│       ├── generation-ii/      # Generation II sprites
 │       └── ...                 # Future generation sprites
 │
 ├── docs/                       # Generated JSDoc documentation
@@ -225,12 +225,15 @@ Example:
 generations.json
         │
         ▼
-Selected Generation
+Enabled Generation
         │
         ▼
 gen1.json
+
+Future:
 gen2.json
 gen3.json
+...
 ```
 
 ## 📷 Screenshots
@@ -258,17 +261,19 @@ The project separates application logic from Pokémon data.
 
 ## 📜 NPM Scripts
 
-| Command            | Description                                 |
-|--------------------|---------------------------------------------|
-| `npm run dev`      | Start local Vite server                     |
-| `npm run build`    | Create production build                     |
-| `npm run preview`  | Preview production build                    |
-| `npm run lint:js`  | Run ESLint on JS files                      |
-| `npm run lint:jsFix` | Auto-fix lint issues in JS                |
-| `npm run lint:css` | Run Stylelint on CSS                        |
-| `npm run a11y:dev` | Run axe-core against dev URL                |
-| `npm run a11y:prod`| Run axe-core against built site             |
-| `npm run docs`| Run JSDoc to create documentation from JS        |
+| Command | Description |
+|---|---|
+| `npm run dev` | Start the local Vite development server |
+| `npm run build` | Create the production build |
+| `npm run preview` | Preview the production build |
+| `npm run lint` | Run all configured linters |
+| `npm run lint:js` | Run ESLint on JavaScript files |
+| `npm run lint:css` | Run Stylelint on application CSS |
+| `npm run lint:html` | Run html-validate on `index.html` |
+| `npm run a11y` | Run the local accessibility scan |
+| `npm run a11y:dev` | Run axe-core against the development site |
+| `npm run a11y:prod` | Run axe-core against the production site |
+| `npm run docs` | Generate JSDoc documentation |
 
 ## 📘 Documentation
 
@@ -313,9 +318,28 @@ This will populate the `/docs` folder with up-to-date HTML documentation.
 3. Select a game version.
 4. Configure the desired filters.
 5. Click **Show Pokémon**.
-6. Click Pokémon sprites to build a party.
+6. Select Pokémon to add or remove them from your party.
 7. Review the team's defensive matchup table.
 
+## ♿ Accessibility
+
+Accessibility is being reviewed as part of the v0.9 release cycle before the
+Generation I stable release.
+
+Current accessibility work includes:
+
+- Semantic HTML landmarks and form controls
+- Keyboard-accessible Pokémon selection
+- Visible keyboard focus indicators
+- Accessible party controls
+- ARIA live-region announcements for party changes
+- Semantic defensive matchup table structure
+- Decorative sprite handling
+- Color contrast testing
+- Automated axe-core testing
+- Browser accessibility-tree inspection
+
+Screen reader testing is still in progress.
 
 ## :gem: Acknowledgments
 

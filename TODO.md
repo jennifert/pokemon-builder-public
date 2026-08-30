@@ -31,8 +31,8 @@ Focus: finish remaining Generation I behavior and clean up the application befor
 ## UI / Behavior
 
 - [x] Update intro instructions to match current behavior:
-  - Click a Pokémon to add it to the party.
-  - Click it again to remove it.
+  - Select a Pokémon to add it to the party.
+  - Select it again to remove it.
   - Remove the old “double click to remove” wording.
 - [x] Show party count.
   - Example: `Party (3/6)`
@@ -119,7 +119,7 @@ Focus: perform the dedicated accessibility pass and resolve issues before the st
 ## Accessibility Tools
 
 - [x] Run Axe automated accessibility scan against the application.
-- [ ] Run accessibility checks against the production deployment.
+- [x] Run accessibility checks against the production deployment.
 - [x] Review browser accessibility inspector results.
 - [ ] Fix issues that should block the stable release.
 - [ ] Re-test after fixes.
@@ -234,6 +234,7 @@ Focus: add Gold, Silver, and Crystal primarily through data rather than generati
 ## Generation Data
 
 - [ ] Add Generation II to `generations.json` when Gen II is ready to be enabled.
+- [ ] Add Gen II sprites to the public deployment when Gen II is enabled.
 - [ ] Review and complete `gen2.json`.
 - [ ] Add/verify Gen II display metadata.
 - [ ] Add/verify Gold, Silver, and Crystal version data.
@@ -278,6 +279,7 @@ Focus: add Ruby, Sapphire, and Emerald using the existing generation architectur
 - [ ] Test defensive matchup analysis with Gen III.
 - [ ] Add Gen III screenshots/documentation.
 - [ ] Consider region filtering only if it provides useful behavior beyond the generation selector.
+- [ ] Add Gen III sprites to the public deployment when Gen III is enabled.
 
 ---
 
@@ -334,7 +336,7 @@ These are useful improvements but are **not v1.0 blockers**.
 
 ## Linting / Formatting
 
-- [ ] Evaluate replacing HTMLHint with `eslint-plugin-html`.
+- [x] Replace HTMLHint with `html-validate`.
 - [ ] Consider Prettier for HTML, JavaScript, CSS, JSON, and Markdown.
 
 ## Automated Testing
