@@ -41,11 +41,11 @@ Implemented:
 - Keyboard-accessible Pokémon and party controls
 - Automated accessibility testing with axe-core
 - Accessible defensive matchup table
+- Screen reader testing
+- Final accessibility verification
 
 In Progress:
 
-- Screen reader testing
-- Final accessibility verification
 - Generation I stable-release preparation
 
 Generation II support is planned for **v1.1.0**, after the Generation I stable release.
@@ -339,7 +339,7 @@ Current accessibility work includes:
 - Automated axe-core testing
 - Browser accessibility-tree inspection
 
-Screen reader testing is still in progress.
+Screen reader testing has been completed using VoiceOver on macOS, alongside keyboard testing and automated accessibility checks.
 
 ## :gem: Acknowledgments
 

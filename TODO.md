@@ -86,8 +86,7 @@ Test all Generation I functionality before moving to the accessibility release.
 - [x] Perform a quick regression test against the deployed version.
 
 ---
-
-# 🔧 v0.9 — Accessibility & Release Readiness
+# ✅ v0.9  — Accessibility & Release Readiness
 
 Focus: perform the dedicated accessibility pass and resolve issues before the stable Gen I release.
 
@@ -121,20 +120,20 @@ Focus: perform the dedicated accessibility pass and resolve issues before the st
 - [x] Run Axe automated accessibility scan against the application.
 - [x] Run accessibility checks against the production deployment.
 - [x] Review browser accessibility inspector results.
-- [ ] Fix issues that should block the stable release.
-- [ ] Re-test after fixes.
+- [x] Fix issues that should block the stable release.
+- [x] Re-test after fixes.
 
 ## Final Release Readiness
 
-- [ ] Perform final Gen I regression test after accessibility changes.
-- [ ] Verify there are no known critical console errors.
-- [ ] Verify production build again.
-- [ ] Verify deployed application.
-- [ ] Review TODO for anything that genuinely blocks v1.0.
+- [x] Perform final Gen I regression test after accessibility changes.
+- [x] Verify there are no known critical console errors.
+- [x] Verify production build again.
+- [x] Verify deployed application.
+- [x] Review TODO for anything that genuinely blocks v1.0.
 
 ---
 
-# 🎉 v1.0 — Generation I Stable
+# 🔧 v1.0 — Generation I Stable
 
 The first stable public release.
 
@@ -174,7 +173,7 @@ Complete documentation as part of the final stable release.
 - [x] Polished defensive matchup table.
 - [x] Graceful loading/data errors.
 - [x] Complete Gen I regression testing.
-- [ ] Complete accessibility pass.
+- [x] Complete accessibility pass.
 - [ ] Complete README/screenshots.
 - [ ] Verify final production deployment.
 - [ ] Create/tag **v1.0.0** stable release.
