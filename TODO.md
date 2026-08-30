@@ -155,8 +155,8 @@ Complete documentation as part of the final stable release.
 - [x] Add screenshot of the updated Pico interface.
 - [x] Add screenshot showing a completed six-Pokémon party.
 - [x] Add screenshot showing the defensive matchup table.
-- [ ] Document local production-build steps.
-- [ ] Document deployment steps.
+- [x] Document local production-build steps.
+- [x] Document deployment steps.
 
 ## Release Requirements
 
@@ -174,8 +174,8 @@ Complete documentation as part of the final stable release.
 - [x] Graceful loading/data errors.
 - [x] Complete Gen I regression testing.
 - [x] Complete accessibility pass.
-- [ ] Complete README/screenshots.
-- [ ] Verify final production deployment.
+- [x] Complete README/screenshots.
+- [x] Verify final production deployment.
 - [ ] Create/tag **v1.0.0** stable release.
 
 ---

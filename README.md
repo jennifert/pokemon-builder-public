@@ -294,7 +294,6 @@ This project aims to be:
 
 Adding a new Pokémon generation should primarily involve creating new JSON data rather than rewriting application logic.
 
-
 ### 🧪 JSDoc Reference
 
 This project uses [JSDoc](https://jsdoc.app/) to generate documentation from code comments.
@@ -306,6 +305,47 @@ npm run docs
 ```
 
 This will populate the `/docs` folder with up-to-date HTML documentation.
+
+#### 📖 How it's structured:
+
+- Each JS module (like `party.js`, `team.js`) includes detailed descriptions, parameters, and return types
+- Comments follow the [JSDoc standard](https://jsdoc.app/about-getting-started.html)
+
+## 📦 Production Build
+
+Before deploying a release, verify the application locally.
+
+1. Start the development server:
+
+```bash
+npm run dev
+```
+
+2. In another terminal, run the project checks:
+
+```bash
+npm run lint
+npm run a11y:dev
+```
+
+3. Create the production build:
+
+```bash
+npm run build
+```
+
+4. Confirm the generated `dist/` folder contains the expected static site assets.
+
+## 🌐 Deployment
+
+The public site is deployed as a static site through DigitalOcean.
+
+1. Run the local production checks and build.
+2. Copy the contents of the generated `dist/` folder into the private deployment repository.
+3. Commit and push the updated static files.
+4. DigitalOcean automatically deploys the new commit.
+5. Verify the production site after deployment.
+
 
 #### 📖 How it's structured:
 - Each JS module (like `party.js`, `team.js`) includes detailed descriptions, parameters, and return types
@@ -323,23 +363,25 @@ This will populate the `/docs` folder with up-to-date HTML documentation.
 
 ## ♿ Accessibility
 
-Accessibility is being reviewed as part of the v0.9 release cycle before the
-Generation I stable release.
+Accessibility was reviewed as part of the v0.9 release cycle in preparation for
+the Generation I stable release.
 
-Current accessibility work includes:
+Accessibility improvements and testing include:
 
 - Semantic HTML landmarks and form controls
 - Keyboard-accessible Pokémon selection
 - Visible keyboard focus indicators
 - Accessible party controls
-- ARIA live-region announcements for party changes
+- ARIA live-region announcements for dynamic interactions
 - Semantic defensive matchup table structure
 - Decorative sprite handling
 - Color contrast testing
 - Automated axe-core testing
 - Browser accessibility-tree inspection
+- Keyboard-only navigation testing
+- VoiceOver screen reader testing on macOS
 
-Screen reader testing has been completed using VoiceOver on macOS, alongside keyboard testing and automated accessibility checks.
+Accessibility testing was also performed against the production deployment.
 
 ## :gem: Acknowledgments
 

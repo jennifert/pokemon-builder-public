@@ -3,7 +3,7 @@
     "description": "A data-driven Pokémon team builder built with vanilla JavaScript, Vite, and Pico CSS.",
     "author": "Jennifer Tesolin",
     "private": true,
-    "version": "0.9.0",
+    "version": "1.0.0",
     "license": "MIT",
     "type": "module",
     "repository": {
