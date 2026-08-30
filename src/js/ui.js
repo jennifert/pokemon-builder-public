@@ -135,8 +135,8 @@ selectedGeneration.addEventListener('change', async function () {
 
 
 /**
- * Clears the current party when the Clear Party button is clicked.
- * Hides the button and refreshes team analysis.
+ * Clears the current party when the Clear Party button is activated.
+ * Refreshes the party display and team analysis.
  */
 document
   .getElementById('clearParty')
@@ -168,29 +168,34 @@ document
 
 
 /**
- * Adds or removes a Pokémon from the party when its sprite
- * is clicked in the results list.
+ * Adds or removes a Pokémon from the party when its result button
+ * is activated.
  * Enforces a maximum party size of 6 Pokémon.
  */
 results.addEventListener('click', function (e) {
-  const clickedElement = e.target;
-  const data = clickedElement.dataset;
-  const dexId = data.pokdex;
+  const button = e.target.closest('[data-pokdex]');
 
-  if (!dexId) return;
+  if (!button) return;
+
+  const dexId = button.dataset.pokdex;
+  const name = button.dataset.name;
 
   if (party.length < 6 && !party.includes(dexId)) {
     party.push(dexId);
+
+    button.setAttribute('aria-pressed', 'true');
+    button.setAttribute('aria-label', `Remove ${name} from party`);
+    button.title = `Remove ${name} from party`;
   } else if (party.includes(dexId)) {
     party.splice(party.indexOf(dexId), 1);
+
+    button.setAttribute('aria-pressed', 'false');
+    button.setAttribute('aria-label', `Add ${name} to party`);
+    button.title = `Add ${name} to party`;
   } else {
     alert('Party full (6 Pokémon). Click one to remove.');
     return;
   }
-
-  document
-    .getElementById('clearParty')
-    .classList.remove('hidden');
 
   updatePartyDisplay(currentGenerationData);
 

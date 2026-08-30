@@ -12,6 +12,15 @@
     gap: 1rem;
 }
 
+.party-info:hover {
+    filter: brightness(1.1);
+}
+
+.party-info:focus-visible {
+    outline: 2px solid currentcolor;
+    outline-offset: 2px;
+}
+
 /* ----------------------------------------------------------
    Utility Classes
 ---------------------------------------------------------- */

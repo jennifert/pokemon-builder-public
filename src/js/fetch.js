@@ -144,15 +144,22 @@ export function ViewPokemon(dexResults) {
 
     const imageName = dexId.replace(/^0+/, '');
     const pokedexResults = `
-      <span>
+      <button
+        type="button"
+        class="pokemon-result"
+        data-name="${name}"
+        data-types="${types}"
+        data-pokdex="${dexId}"
+        aria-pressed="false"
+        aria-label="Add ${name} to party"
+        title="Add ${name} to party"
+      >
         <img
           src="${imageSrc + imageName}.png"
-          alt="${name}"
-          data-name="${name}"
-          data-types="${types}"
-          data-pokdex="${dexId}"
+          alt=""
         >
-      </span>
+        <span class="pokemon-result-name">${name}</span>
+      </button>
     `;
 
     if (selectedLegendary.value === 'no' && isLegendary) continue;

@@ -27,8 +27,14 @@ export function updatePartyDisplay(generationData) {
 
   const container = document.getElementById('partyDisplay');
   const partyCount = document.getElementById('partyCount');
+  const clearPartyButton = document.getElementById('clearParty');
 
   partyCount.textContent = `Party (${party.length}/${maxPartySize})`;
+  clearPartyButton.classList.toggle(
+    'hidden',
+    party.length === 0
+  );
+
   container.innerHTML = '';
 
   if (!generationData) {
@@ -59,20 +65,19 @@ export function updatePartyDisplay(generationData) {
       `${imageBase}${imageName}.png`;
 
     container.innerHTML += `
-      <div
+      <button
+        type="button"
         class="party-info"
         data-dexid="${dexId}"
-        role="button"
-        tabindex="0"
-        aria-label="Click to remove ${name} from your party"
-        title="Click to remove"
+        aria-label="Remove ${name} from party"
+        title="Remove ${name} from party"
       >
-        <img src="${sprite}" alt="${name}" />
+        <img src="${sprite}" alt="">
 
-        <div class="party-info-name">
+        <span class="party-info-name">
           ${name}
-        </div>
-      </div>
+        </span>
+      </button>
     `;
   }
 
@@ -88,10 +93,6 @@ export function updatePartyDisplay(generationData) {
  */
 export function clearParty(generationData) {
   party.length = 0;
-
-  document
-    .getElementById('clearParty')
-    .classList.add('hidden');
 
   updatePartyDisplay(generationData);
 }
