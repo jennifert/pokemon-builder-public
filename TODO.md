@@ -24,7 +24,7 @@ Focus: migrate the interface to Pico CSS and polish the Generation I presentatio
 
 ---
 
-# 🔧 v0.8 — Gen I Final Features, Cleanup & Testing
+# ✅ v0.8 — Gen I Final Features, Cleanup & Testing
 
 Focus: finish remaining Generation I behavior and clean up the application before the accessibility pass.
 
@@ -75,19 +75,19 @@ Test all Generation I functionality before moving to the accessibility release.
 
 ## Production Build
 
-- [ ] Run a clean production build.
-- [ ] Verify `npm run build` completes without errors.
-- [ ] Verify `/dist` contains the expected application assets.
-- [ ] Test the production build.
-- [ ] Verify local sprite assets load.
-- [ ] Verify generation JSON loads.
-- [ ] Verify root-relative `/data/...` paths.
-- [ ] Deploy v0.8 to the hosted demo.
-- [ ] Perform a quick regression test against the deployed version.
+- [x] Run a clean production build.
+- [x] Verify `npm run build` completes without errors.
+- [x] Verify `/dist` contains the expected application assets.
+- [x] Test the production build.
+- [x] Verify local sprite assets load.
+- [x] Verify generation JSON loads.
+- [x] Verify root-relative `/data/...` paths.
+- [x] Deploy v0.8 to the hosted demo.
+- [x] Perform a quick regression test against the deployed version.
 
 ---
 
-# ♿ v0.9 — Accessibility & Release Readiness
+# 🔧 v0.9 — Accessibility & Release Readiness
 
 Focus: perform the dedicated accessibility pass and resolve issues before the stable Gen I release.
 
@@ -148,7 +148,7 @@ Complete documentation as part of the final release-readiness work.
 - [x] Explain Weak / Resist / Immune / Neutral analysis.
 - [x] Credit the PokeAPI sprites repository.
 - [x] Mention support targets latest stable browser versions.
-- [ ] Remove any remaining double-click instructions.
+- [x] Remove any remaining double-click instructions.
 - [ ] Add screenshot of the updated Pico interface.
 - [ ] Add screenshot showing a completed six-Pokémon party.
 - [ ] Add screenshot showing the defensive matchup table.
@@ -174,8 +174,8 @@ The first stable public release.
 - [x] Polished Pokémon results display.
 - [x] Polished six-member party display.
 - [x] Polished defensive matchup table.
-- [ ] Graceful loading/data errors.
-- [ ] Complete Gen I regression testing.
+- [x] Graceful loading/data errors.
+- [x] Complete Gen I regression testing.
 - [ ] Complete accessibility pass.
 - [ ] Complete README/screenshots.
 - [ ] Verify final production deployment.
@@ -199,8 +199,6 @@ Focus: update development dependencies after the Generation I stable release wit
 - [ ] Run `npm audit`.
 - [ ] Review configuration changes required by major-version upgrades.
 
----
-
 ## Verification
 
 - [ ] Run linting successfully.
@@ -221,6 +219,8 @@ Focus: update development dependencies after the Generation I stable release wit
   - Decide whether to rename it to `#party-display` throughout HTML/CSS/JavaScript.
   - Alternatively, adjust the Stylelint rule if camelCase IDs remain the project convention.
 - [ ] Confirm `npm run lint` completes with no errors.
+
+---
 
 # 🧬 v1.1.0 — Generation II
 
