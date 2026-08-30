@@ -93,16 +93,16 @@ Focus: perform the dedicated accessibility pass and resolve issues before the st
 
 ## Manual Accessibility Testing
 
-- [ ] Test keyboard-only navigation.
-- [ ] Verify Tab navigation follows a sensible order.
-- [ ] Test adding Pokémon using the keyboard.
-- [ ] Test removing Pokémon using the keyboard.
-- [ ] Test Clear Party using the keyboard.
-- [ ] Test form controls using the keyboard.
+- [x] Test keyboard-only navigation.
+- [x] Verify Tab navigation follows a sensible order.
+- [x] Test adding Pokémon using the keyboard.
+- [x] Test removing Pokémon using the keyboard.
+- [x] Test Clear Party using the keyboard.
+- [x] Test form controls using the keyboard.
 - [ ] Test with a screen reader such as VoiceOver or NVDA.
-- [ ] Verify visible focus indicators.
-- [ ] Verify sufficient color contrast.
-- [ ] Verify hover, focus and disabled states remain understandable.
+- [x] Verify visible focus indicators.
+- [x] Verify sufficient color contrast.
+- [x] Verify hover, focus and disabled states remain understandable.
 
 ## Semantic HTML / ARIA
 
@@ -120,7 +120,7 @@ Focus: perform the dedicated accessibility pass and resolve issues before the st
 
 - [x] Run Axe automated accessibility scan against the application.
 - [ ] Run accessibility checks against the production deployment.
-- [ ] Review browser accessibility inspector results.
+- [x] Review browser accessibility inspector results.
 - [ ] Fix issues that should block the stable release.
 - [ ] Re-test after fixes.
 
@@ -134,11 +134,15 @@ Focus: perform the dedicated accessibility pass and resolve issues before the st
 
 ---
 
-# 📚 v0.9 / v1.0 Documentation
+# 🎉 v1.0 — Generation I Stable
 
-Complete documentation as part of the final release-readiness work.
+The first stable public release.
 
-## README
+## Documentation
+
+Complete documentation as part of the final stable release.
+
+### README
 
 - [x] Document `generations.json`.
 - [x] Document generation-specific JSON files.
@@ -154,12 +158,6 @@ Complete documentation as part of the final release-readiness work.
 - [ ] Add screenshot showing the defensive matchup table.
 - [ ] Document local production-build steps.
 - [ ] Document deployment steps.
-
----
-
-# 🎉 v1.0 — Generation I Stable
-
-The first stable public release.
 
 ## Release Requirements
 
@@ -235,6 +233,7 @@ Focus: add Gold, Silver, and Crystal primarily through data rather than generati
 
 ## Generation Data
 
+- [ ] Add Generation II to `generations.json` when Gen II is ready to be enabled.
 - [ ] Review and complete `gen2.json`.
 - [ ] Add/verify Gen II display metadata.
 - [ ] Add/verify Gold, Silver, and Crystal version data.
@@ -263,7 +262,7 @@ Focus: add Gold, Silver, and Crystal primarily through data rather than generati
 
 ---
 
-# 🌍 v1.2 — Generation III
+# 🌍 v1.2.0 — Generation III
 
 Focus: add Ruby, Sapphire, and Emerald using the existing generation architecture.
 
