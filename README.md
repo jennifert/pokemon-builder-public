@@ -238,19 +238,19 @@ gen3.json
 
 ## 📷 Screenshots
 
-### Generation Selection
-
-Coming soon.
-
 ### Team Builder
 
-Coming soon.
+![Pokémon Team Builder interface](docs/images/team-builder.png)
+
+### Completed Party
+
+![Completed six-Pokémon party](docs/images/completed-party.png)
 
 ### Team Defensive Analysis
 
-Coming soon.
+![Team defensive matchup analysis](docs/images/defensive-matchups.png)
 
-### Data-Driven Design
+## 🗃 Data-Driven Design
 
 The project separates application logic from Pokémon data.
 

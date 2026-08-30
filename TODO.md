@@ -152,9 +152,9 @@ Complete documentation as part of the final stable release.
 - [x] Credit the PokeAPI sprites repository.
 - [x] Mention support targets latest stable browser versions.
 - [x] Remove any remaining double-click instructions.
-- [ ] Add screenshot of the updated Pico interface.
-- [ ] Add screenshot showing a completed six-Pokémon party.
-- [ ] Add screenshot showing the defensive matchup table.
+- [x] Add screenshot of the updated Pico interface.
+- [x] Add screenshot showing a completed six-Pokémon party.
+- [x] Add screenshot showing the defensive matchup table.
 - [ ] Document local production-build steps.
 - [ ] Document deployment steps.
 

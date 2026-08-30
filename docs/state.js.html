@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: state.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: state.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * @file state.js
+ * @description DOM state selectors shared across modules.
+ * These provide access to user input fields and result containers.
+ */
+
+
+/**
+ * @type {HTMLSelectElement}
+ * @description Dropdown for choosing a Pokémon generation
+ */
+export const selectedGeneration = document.getElementById('generation');
+
+/**
+ * @type {HTMLFieldSetElement}
+ * @description Generation-dependent form controls
+ */
+export const generationOptions = document.getElementById('generationOptions');
+export const generationTitle = document.getElementById('generationTitle');
+export const generationDescription = document.getElementById('generationDescription');
+export const generationInfo = document.getElementById('generationInfo');
+
+/**
+ * @type {HTMLSelectElement}
+ * @description Dropdown for choosing sprite style
+ */
+export const selectedSprites = document.getElementById('sprite');
+
+/**
+ * @type {HTMLSelectElement}
+ * @description Version filter: red, blue, or yellow
+ */
+export const selectedVersion = document.getElementById('version');
+
+/**
+ * @type {HTMLSelectElement}
+ * @description Filter for showing only final-evolution Pokémon
+ */
+export const selectedEvolution = document.getElementById('evolution');
+
+/**
+ * @type {HTMLSelectElement}
+ * @description Filter for excluding legendary Pokémon
+ */
+export const selectedLegendary = document.getElementById('legends');
+
+/**
+ * @type {HTMLSelectElement}
+ * @description Filter for excluding Pokémon that evolve by trade
+ */
+export const selectedEvolve = document.getElementById('evolve');
+
+/**
+ * @type {HTMLSelectElement}
+ * @description Filter for hiding unobtainable Pokémon
+ */
+export const selectedUnobtainable = document.getElementById('unobtainable');
+
+/**
+ * @type {HTMLElement}
+ * @description The container where filtered Pokémon are displayed
+ */
+export const results = document.getElementById('results');
+
+/**
+ * @type {HTMLElement}
+ * @description The loading message when JSON fetched
+ */
+export const loadingStatus = document.getElementById('loadingStatus');
+
+/**
+ * @type {HTMLElement}
+ * @description Live status region for party interaction updates.
+ */
+export const interactionStatus = document.getElementById('interactionStatus');</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#ViewPokemon">ViewPokemon</a></li><li><a href="global.html#calculateTeamWeaknesses">calculateTeamWeaknesses</a></li><li><a href="global.html#clearParty">clearParty</a></li><li><a href="global.html#displayTeamWeaknessTable">displayTeamWeaknessTable</a></li><li><a href="global.html#fetchDexEntries">fetchDexEntries</a></li><li><a href="global.html#fetchGenerations">fetchGenerations</a></li><li><a href="global.html#generationOptions">generationOptions</a></li><li><a href="global.html#getIndividualTypeAnalysis">getIndividualTypeAnalysis</a></li><li><a href="global.html#getRandomLoadingMessage">getRandomLoadingMessage</a></li><li><a href="global.html#interactionStatus">interactionStatus</a></li><li><a href="global.html#loadGenerations">loadGenerations</a></li><li><a href="global.html#loadingMessages">loadingMessages</a></li><li><a href="global.html#loadingStatus">loadingStatus</a></li><li><a href="global.html#maxPartySize">maxPartySize</a></li><li><a href="global.html#party">party</a></li><li><a href="global.html#populateSpriteOptions">populateSpriteOptions</a></li><li><a href="global.html#populateVersionOptions">populateVersionOptions</a></li><li><a href="global.html#results">results</a></li><li><a href="global.html#selectedEvolution">selectedEvolution</a></li><li><a href="global.html#selectedEvolve">selectedEvolve</a></li><li><a href="global.html#selectedGeneration">selectedGeneration</a></li><li><a href="global.html#selectedLegendary">selectedLegendary</a></li><li><a href="global.html#selectedSprites">selectedSprites</a></li><li><a href="global.html#selectedUnobtainable">selectedUnobtainable</a></li><li><a href="global.html#selectedVersion">selectedVersion</a></li><li><a href="global.html#updatePartyDisplay">updatePartyDisplay</a></li><li><a href="global.html#validateGenerationData">validateGenerationData</a></li><li><a href="global.html#validateGenerationList">validateGenerationList</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.5</a> on Sun Aug 30 2026 13:58:46 GMT-0400 (Eastern Daylight Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

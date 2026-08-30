@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: fetch.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: fetch.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * @file fetch.js
+ * @description Handles loading, validating, filtering, and rendering Pokémon data.
+ *
+ * - `fetchGenerations()` retrieves the supported generation list.
+ * - `fetchDexEntries()` retrieves and validates generation data.
+ * - `ViewPokemon()` filters and displays Pokémon based on user-selected criteria.
+ */
+import {
+  selectedSprites,
+  selectedVersion,
+  selectedEvolution,
+  selectedLegendary,
+  selectedEvolve,
+  selectedUnobtainable,
+  results
+} from './state.js';
+
+/**
+ * Fetches the list of supported generations.
+ *
+ * @returns {Promise&lt;Object>}
+ */
+export async function fetchGenerations() {
+  const response = await fetch('/data/generations.json');
+
+  if (!response.ok) {
+    throw new Error('Unable to load the generation list.');
+  }
+
+  try {
+    const data = await response.json();
+    return validateGenerationList(data);
+  } catch (error) {
+    if (error instanceof SyntaxError) {
+      throw new Error(
+        'The generation list contains invalid JSON.'
+      );
+    }
+
+    throw error;
+  }
+}
+
+/**
+ * Validates required fields in generation data.
+ *
+ * @param {Object} data - Parsed generation JSON data
+ * @returns {Object} Validated generation data
+ * @throws {Error} If required generation data is missing
+ */
+function validateGenerationData(data) {
+  if (
+    !data ||
+    typeof data !== 'object' ||
+    typeof data.displayName !== 'string' ||
+    typeof data.description !== 'string' ||
+    typeof data.imageSrc !== 'string' ||
+    !Array.isArray(data.spriteSets) ||
+    !Array.isArray(data.versions) ||
+    !Array.isArray(data.pokemon)
+  ) {
+    throw new Error(
+      'The selected generation data is missing required information.'
+    );
+  }
+
+  return data;
+}
+
+/**
+ * Validates the supported generation list.
+ *
+ * @param {Object} data - Parsed generation JSON data
+ * @returns {Object} Validated generation data
+ * @throws {Error} If required generation data is missing
+ */
+function validateGenerationList(data) {
+  if (
+    !data ||
+    typeof data !== 'object' ||
+    !Array.isArray(data.generations)
+  ) {
+    throw new Error(
+      'The generation list is missing required information.'
+    );
+  }
+  return data;
+}
+
+/**
+ * Fetches data for a selected Pokémon generation.
+ *
+ * @param {string} file - JSON filename for the selected generation
+ * @returns {Promise&lt;Object>}
+ */
+export async function fetchDexEntries(file) {
+  const response = await fetch(`/data/${file}`);
+
+  if (!response.ok) {
+    throw new Error(`Unable to load ${file}.`);
+  }
+
+  try {
+    const data = await response.json();
+    return validateGenerationData(data);
+  } catch (error) {
+    if (error instanceof SyntaxError) {
+      throw new Error(`The data in ${file} is not valid JSON.`);
+    }
+
+    throw error;
+  }
+}
+
+/**
+ * Renders filtered Pokémon sprites based on selected version, evolution, and other options.
+ * Appends the images to the results container.
+ *
+ * @param {Object} dexResults - The full Dex dataset including image base path and Pokémon list
+ * @returns {void}
+ */
+export function ViewPokemon(dexResults) {
+  const imageSrc =
+    dexResults['imageSrc'] +
+    selectedSprites.value +
+    '/transparent/';
+
+  const pokemon = dexResults['pokemon'];
+  const htmlPosition = 'beforeend';
+
+  let matchingPokemon = 0;
+
+  results.innerHTML = '';
+
+  for (const entry in pokemon) {
+    const dexId = pokemon[entry]['dexId'];
+    const tradeEvolve = pokemon[entry]['evolve']['trade'];
+    const name = pokemon[entry]['name'];
+    const finalForm = pokemon[entry]['finalForm'];
+    const isLegendary = pokemon[entry]['isLegendary'];
+    const types = pokemon[entry]['types'].join();
+    const unobtainable = pokemon[entry]['unobtainable'];
+
+    const imageName = dexId.replace(/^0+/, '');
+    const pokedexResults = `
+      &lt;button
+        type="button"
+        class="pokemon-result"
+        data-name="${name}"
+        data-types="${types}"
+        data-pokdex="${dexId}"
+        aria-pressed="false"
+        aria-label="Add ${name} to party"
+        title="Add ${name} to party"
+      >
+        &lt;img
+          src="${imageSrc + imageName}.png"
+          alt=""
+        >
+        &lt;span class="pokemon-result-name">${name}&lt;/span>
+      &lt;/button>
+    `;
+
+    if (selectedLegendary.value === 'no' &amp;&amp; isLegendary) continue;
+    if (selectedEvolve.value === 'yes' &amp;&amp; tradeEvolve) continue;
+
+    if (
+      selectedUnobtainable.value === 'yes' &amp;&amp;
+      unobtainable.includes(selectedVersion.value)
+    ) {
+      continue;
+    }
+
+    if (selectedEvolution.value === 'yes' &amp;&amp; !finalForm) continue;
+
+    matchingPokemon += 1;
+
+    results.insertAdjacentHTML(htmlPosition, pokedexResults);
+  }
+
+  results.insertAdjacentHTML(
+    'afterbegin',
+    `&lt;h2>Available Pokémon (${matchingPokemon})&lt;/h2>`
+  );
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#ViewPokemon">ViewPokemon</a></li><li><a href="global.html#calculateTeamWeaknesses">calculateTeamWeaknesses</a></li><li><a href="global.html#clearParty">clearParty</a></li><li><a href="global.html#displayTeamWeaknessTable">displayTeamWeaknessTable</a></li><li><a href="global.html#fetchDexEntries">fetchDexEntries</a></li><li><a href="global.html#fetchGenerations">fetchGenerations</a></li><li><a href="global.html#generationOptions">generationOptions</a></li><li><a href="global.html#getIndividualTypeAnalysis">getIndividualTypeAnalysis</a></li><li><a href="global.html#getRandomLoadingMessage">getRandomLoadingMessage</a></li><li><a href="global.html#interactionStatus">interactionStatus</a></li><li><a href="global.html#loadGenerations">loadGenerations</a></li><li><a href="global.html#loadingMessages">loadingMessages</a></li><li><a href="global.html#loadingStatus">loadingStatus</a></li><li><a href="global.html#maxPartySize">maxPartySize</a></li><li><a href="global.html#party">party</a></li><li><a href="global.html#populateSpriteOptions">populateSpriteOptions</a></li><li><a href="global.html#populateVersionOptions">populateVersionOptions</a></li><li><a href="global.html#results">results</a></li><li><a href="global.html#selectedEvolution">selectedEvolution</a></li><li><a href="global.html#selectedEvolve">selectedEvolve</a></li><li><a href="global.html#selectedGeneration">selectedGeneration</a></li><li><a href="global.html#selectedLegendary">selectedLegendary</a></li><li><a href="global.html#selectedSprites">selectedSprites</a></li><li><a href="global.html#selectedUnobtainable">selectedUnobtainable</a></li><li><a href="global.html#selectedVersion">selectedVersion</a></li><li><a href="global.html#updatePartyDisplay">updatePartyDisplay</a></li><li><a href="global.html#validateGenerationData">validateGenerationData</a></li><li><a href="global.html#validateGenerationList">validateGenerationList</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.5</a> on Sun Aug 30 2026 13:58:46 GMT-0400 (Eastern Daylight Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

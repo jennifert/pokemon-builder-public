@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: party.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: party.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/**
+ * @file party.js
+ * @description Manages the user's party of up to 6 Pokémon.
+ * - Handles display rendering for each Pokémon
+ * - Provides logic for clearing the party
+ * - Analyzes type effectiveness via utility modules
+ */
+
+import { selectedSprites } from './state.js';
+
+/** @constant {number} maxPartySize - The maximum allowed number of Pokémon in a party */
+export const maxPartySize = 6;
+
+/**
+ * @type {string[]}
+ * @description An array of Pokémon dex IDs currently in the party.
+ */
+export const party = [];
+
+/**
+ * Updates the party display area with current party Pokémon.
+ *
+ * @param {Object|null} generationData
+ * @returns {void}
+ */
+export function updatePartyDisplay(generationData) {
+
+  const container = document.getElementById('partyDisplay');
+  const partyCount = document.getElementById('partyCount');
+  const clearPartyButton = document.getElementById('clearParty');
+
+  partyCount.textContent = `Party (${party.length}/${maxPartySize})`;
+  clearPartyButton.classList.toggle(
+    'hidden',
+    party.length === 0
+  );
+
+  container.innerHTML = '';
+
+  if (!generationData) {
+    container.innerHTML = '&lt;em>Party is empty.&lt;/em>';
+    return;
+  }
+
+  const imageBase =
+    generationData.imageSrc +
+    selectedSprites.value +
+    '/transparent/';
+
+  const pokemonList = generationData.pokemon;
+
+  for (const dexId of party) {
+    const mon = pokemonList.find(
+      pokemon => pokemon.dexId === dexId
+    );
+
+    if (!mon) continue;
+
+    const name = mon.name;
+
+    const imageName =
+      dexId.replace(/^0+/, '');
+
+    const sprite =
+      `${imageBase}${imageName}.png`;
+
+    container.innerHTML += `
+      &lt;button
+        type="button"
+        class="party-info"
+        data-dexid="${dexId}"
+        aria-label="Remove ${name} from party"
+        title="Remove ${name} from party"
+      >
+        &lt;img src="${sprite}" alt="">
+
+        &lt;span class="party-info-name">
+          ${name}
+        &lt;/span>
+      &lt;/button>
+    `;
+  }
+
+  if (party.length === 0) {
+    container.innerHTML += '&lt;em>Party is empty.&lt;/em>';
+  }
+}
+
+/**
+ * Clears all Pokémon from the party and hides the Clear Party button.
+ * Also re-renders the (empty) party area.
+ * @returns {void}
+ */
+export function clearParty(generationData) {
+  party.length = 0;
+
+  updatePartyDisplay(generationData);
+}</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Global</h3><ul><li><a href="global.html#ViewPokemon">ViewPokemon</a></li><li><a href="global.html#calculateTeamWeaknesses">calculateTeamWeaknesses</a></li><li><a href="global.html#clearParty">clearParty</a></li><li><a href="global.html#displayTeamWeaknessTable">displayTeamWeaknessTable</a></li><li><a href="global.html#fetchDexEntries">fetchDexEntries</a></li><li><a href="global.html#fetchGenerations">fetchGenerations</a></li><li><a href="global.html#generationOptions">generationOptions</a></li><li><a href="global.html#getIndividualTypeAnalysis">getIndividualTypeAnalysis</a></li><li><a href="global.html#getRandomLoadingMessage">getRandomLoadingMessage</a></li><li><a href="global.html#interactionStatus">interactionStatus</a></li><li><a href="global.html#loadGenerations">loadGenerations</a></li><li><a href="global.html#loadingMessages">loadingMessages</a></li><li><a href="global.html#loadingStatus">loadingStatus</a></li><li><a href="global.html#maxPartySize">maxPartySize</a></li><li><a href="global.html#party">party</a></li><li><a href="global.html#populateSpriteOptions">populateSpriteOptions</a></li><li><a href="global.html#populateVersionOptions">populateVersionOptions</a></li><li><a href="global.html#results">results</a></li><li><a href="global.html#selectedEvolution">selectedEvolution</a></li><li><a href="global.html#selectedEvolve">selectedEvolve</a></li><li><a href="global.html#selectedGeneration">selectedGeneration</a></li><li><a href="global.html#selectedLegendary">selectedLegendary</a></li><li><a href="global.html#selectedSprites">selectedSprites</a></li><li><a href="global.html#selectedUnobtainable">selectedUnobtainable</a></li><li><a href="global.html#selectedVersion">selectedVersion</a></li><li><a href="global.html#updatePartyDisplay">updatePartyDisplay</a></li><li><a href="global.html#validateGenerationData">validateGenerationData</a></li><li><a href="global.html#validateGenerationList">validateGenerationList</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.5</a> on Sun Aug 30 2026 13:58:46 GMT-0400 (Eastern Daylight Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>

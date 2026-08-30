@@ -23,9 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
-# Ignore build output and documentation folders
+# Ignore build output
 dist/
-docs/
 
 # Ignore all sprite images
 public/img/*
