@@ -112,7 +112,7 @@ Focus: perform the dedicated accessibility pass and resolve issues before the st
 - [x] Review available Pokémon interaction semantics.
 - [x] Add `aria-live` where useful for changing party/results information.
 - [x] Verify sprite `alt` text.
-- [ ] Verify disabled generation-dependent controls are announced clearly.
+- [x] Verify disabled generation-dependent controls are announced clearly.
 - [x] Verify defensive matchup table headings and structure.
 - [x] Add a table caption if appropriate.
 
