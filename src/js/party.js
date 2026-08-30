@@ -7,7 +7,6 @@
  */
 
 import { selectedSprites } from './state.js';
-import { getIndividualTypeAnalysis } from './type-utils.js';
 
 /** @constant {number} maxPartySize - The maximum allowed number of Pokémon in a party */
 export const maxPartySize = 6;
@@ -49,9 +48,6 @@ export function updatePartyDisplay(generationData) {
     if (!mon) continue;
 
     const name = mon.name;
-
-    const analysis =
-      getIndividualTypeAnalysis(mon);
 
     const imageName =
       dexId.replace(/^0+/, '');

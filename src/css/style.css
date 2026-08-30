@@ -6,44 +6,12 @@
  * This file contains only custom application styles and overrides.
  */
 
-/* ----------------------------------------------------------
-   Layout
----------------------------------------------------------- */
-
-/* Results grid */
-
-/* Party display */
 #partyDisplay {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
 
-/* ----------------------------------------------------------
-   Pokémon Sprites
----------------------------------------------------------- */
-
-/* Available Pokémon sprites */
-
-/* Party sprites */
-
-/* ----------------------------------------------------------
-   Team Analysis
----------------------------------------------------------- */
-
-/* Weakness table */
-
-/* Type badges */
-
-/* ----------------------------------------------------------
-   Utility Classes
----------------------------------------------------------- */
-
-/* Hidden */
-
-/* Selected Pokémon */
-
-/* Custom spacing */
 .mt-4 {
     margin-top: var(--pico-spacing);
 }

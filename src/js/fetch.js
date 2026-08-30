@@ -62,7 +62,7 @@ export function ViewPokemon(dexResults) {
   results.innerHTML = '';
 
   // Insert heading at the top
-  results.insertAdjacentHTML('beforeend', '<h2 class="block">Available Pokémon</h2>');
+  results.insertAdjacentHTML('beforeend', '<h2>Available Pokémon</h2>');
 
   for (let entry in pokemon) {
     let dexId = pokemon[entry]['dexId'];
@@ -72,12 +72,6 @@ export function ViewPokemon(dexResults) {
     let isLegendary = pokemon[entry]['isLegendary'];
     let types = pokemon[entry]['types'].join();
     let unobtainable = pokemon[entry]['unobtainable'];
-
-    // eslint-disable-next-line no-unused-vars
-    let parsedDexID = parseInt(dexId);
-
-    // eslint-disable-next-line no-unused-vars
-    let showObtainable = true;
 
     let imageName = dexId.replace(/^0+/, '');
     let pokedexResults = `<span><img src="${imageSrc + imageName}.png" alt="${name}" data-name="${name}" data-types="${types}" data-pokdex="${dexId}"></span>`;

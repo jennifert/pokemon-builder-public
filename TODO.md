@@ -44,11 +44,11 @@ Focus: finish remaining Generation I behavior and clean up the application befor
 
 ## Cleanup
 
-- [ ] Review HTML/JavaScript for old Tailwind-era classes.
-- [ ] Remove unused CSS classes and old styling references.
-- [ ] Remove remaining references to double-clicking Pokémon.
-- [ ] Review JavaScript for obvious unused code/imports.
-- [ ] Confirm `type-utils.js` remains clean after the type-chart refactor.
+- [x] Review HTML/JavaScript for old Tailwind-era classes.
+- [x] Remove unused CSS classes and old styling references.
+- [x] Remove remaining references to double-clicking Pokémon.
+- [x] Review JavaScript for obvious unused code/imports.
+- [x] Confirm `type-utils.js` remains clean after the type-chart refactor.
 
 ## Gen I Regression Testing
 
