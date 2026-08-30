@@ -2,15 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pokémon Team Builder</title>
-    <!-- <meta name="color-scheme" content="dark light"> -->
     <meta name="twitter:dnt" content="on">
-    <!-- <link rel="stylesheet" href="/src/css/style.css" /> -->
 
-    <link rel="stylesheet" href="/src/css/pico.min.css" />
-    <link rel="stylesheet" href="/src/css/style.css" />
+    <link rel="stylesheet" href="/src/css/pico.min.css">
+    <link rel="stylesheet" href="/src/css/style.css">
 </head>
 
 <body class="container">
@@ -33,6 +31,8 @@
         <p id="loadingStatus" hidden aria-live="polite"></p>
 
         <section id="generationInfo" hidden>
+            <!-- [html-validate-disable-next empty-heading] -->
+            <!-- Heading is populated dynamically in ui.js. -->
             <h2 id="generationTitle"></h2>
             <p id="generationDescription"></p>
         </section>
@@ -104,10 +104,34 @@
             <div id="PartyInfo" class="results-right-party">
                 <strong id="partyCount">Party (0/6)</strong>
                 <div id="partyDisplay" class="mt-4"></div>
-                <button id="clearParty" class="mt-4 hidden">
+                <button id="clearParty" class="mt-4 hidden" type="button">
                     Clear Party
                 </button>
-                <div id="teamWeaknessTable" class="mt-4"></div>
+
+                <h2>Team Defensive Matchups</h2>
+
+                <table class="pokemon-type-breakdown">
+                    <caption>
+                        Defensive matchup totals for the current party
+                    </caption>
+
+                    <thead>
+                        <tr>
+                            <th scope="col">Type</th>
+                            <th scope="col">Weak</th>
+                            <th scope="col">Resist</th>
+                            <th scope="col">Immune</th>
+                            <th scope="col">Neutral</th>
+                        </tr>
+                    </thead>
+                    <tbody id="teamWeaknessBody">
+                        <tr>
+                            <td colspan="5">
+                                <em>No Pokémon in party.</em>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </main>

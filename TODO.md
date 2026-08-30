@@ -111,14 +111,14 @@ Focus: perform the dedicated accessibility pass and resolve issues before the st
 - [ ] Review whether party Pokémon should use `<button>` elements instead of clickable `<div>` elements.
 - [ ] Review available Pokémon interaction semantics.
 - [ ] Add `aria-live` where useful for changing party/results information.
-- [ ] Verify sprite `alt` text.
+- [x] Verify sprite `alt` text.
 - [ ] Verify disabled generation-dependent controls are announced clearly.
-- [ ] Verify defensive matchup table headings and structure.
-- [ ] Add a table caption if appropriate.
+- [x] Verify defensive matchup table headings and structure.
+- [x] Add a table caption if appropriate.
 
 ## Accessibility Tools
 
-- [ ] Run Axe DevTools against the application.
+- [x] Run Axe automated accessibility scan against the application.
 - [ ] Run accessibility checks against the production deployment.
 - [ ] Review browser accessibility inspector results.
 - [ ] Fix issues that should block the stable release.
@@ -204,6 +204,11 @@ Focus: update development dependencies after the Generation I stable release wit
 - [ ] Run linting successfully.
 - [ ] Run Stylelint successfully.
 - [ ] Run `npm run build` successfully.
+- [ ] Add a combined `npm run check` script for local verification.
+  - Run linting.
+  - Run the local Axe accessibility scan.
+  - Run the production build.
+- [ ] Confirm `npm run check` completes successfully.
 - [ ] Test the application locally.
 - [ ] Verify Generation I data loads correctly.
 - [ ] Verify Pokémon filtering works correctly.

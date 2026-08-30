@@ -10,52 +10,37 @@
  * @returns {void}
  */
 export function displayTeamWeaknessTable(typeAnalysis) {
-  const container = document.getElementById('teamWeaknessTable');
+  const tableBody = document.getElementById('teamWeaknessBody');
 
   if (Object.keys(typeAnalysis).length === 0) {
-    container.innerHTML = '<em>No Pokémon in party.</em>';
+    tableBody.innerHTML = `
+      <tr>
+        <td colspan="5">
+          <em>No Pokémon in party.</em>
+        </td>
+      </tr>
+    `;
     return;
   }
 
-  let html = `
-    <h3>Team Defensive Matchups</h3>
-
-    <table class="pokemon-type-breakdown">
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th>Weak</th>
-          <th>Resist</th>
-          <th>Immune</th>
-          <th>Neutral</th>
-        </tr>
-      </thead>
-
-      <tbody>
-  `;
+  tableBody.innerHTML = '';
 
   const sortedTypes = Object.entries(typeAnalysis).sort(
-    (a, b) => {
-      return b[1].weak - a[1].weak;
-    }
+    (a, b) => b[1].weak - a[1].weak
   );
 
   for (const [type, analysis] of sortedTypes) {
-    html += `
-      <tr>
-        <td>${type}</td>
-        <td>${analysis.weak}</td>
-        <td>${analysis.resistant}</td>
-        <td>${analysis.immune}</td>
-        <td>${analysis.neutral}</td>
-      </tr>
-    `;
+    tableBody.insertAdjacentHTML(
+      'beforeend',
+      `
+        <tr>
+          <th scope="row">${type}</th>
+          <td>${analysis.weak}</td>
+          <td>${analysis.resistant}</td>
+          <td>${analysis.immune}</td>
+          <td>${analysis.neutral}</td>
+        </tr>
+      `
+    );
   }
-
-  html += `
-      </tbody>
-    </table>
-  `;
-
-  container.innerHTML = html;
 }
