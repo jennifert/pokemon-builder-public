@@ -28,7 +28,7 @@ The application is designed around reusable generation data files, allowing new 
 
 ## 🚧 Project Status
 
-Current Release: **0.6.0**
+Current Release: **0.7.0**
 
 Implemented
 
@@ -36,11 +36,29 @@ Implemented
 - Dynamic generation loading
 - Data-driven architecture
 - Team defensive analysis
+- Pico CSS interface
+- Responsive party layout
 
 In Progress
 
-- Generation II data
-- Additional UI polish
+- Generation I final features and cleanup
+- Testing and error handling
+- Accessibility and release readiness
+
+Generation II support is planned for **v1.1.0**, after the Generation I stable release.
+
+### Release Roadmap
+
+- **v0.8** — Generation I final features, cleanup, and testing
+- **v0.9** — Accessibility and release readiness
+- **v1.0.0** — Generation I stable release
+- **v1.0.x** — Maintenance releases, including dependency and tooling updates
+- **v1.1.0** — Generation II
+- **v1.2.0** — Generation III
+
+Patch releases such as `v1.0.1` are reserved for maintenance, bug fixes,
+dependency updates, and tooling improvements that do not introduce a new
+Pokémon generation.
 
 ## 📄 License
 
@@ -97,7 +115,7 @@ Defined via [Browserslist](https://github.com/browserslist/browserslist) for bro
 1. **Clone the Repository**
 ```bash
 git clone https://github.com/jennifert/pokemon-builder-public.git
-cd pokemon-builder
+cd pokemon-builder-public
 ```
 
 2. **Download Sprites Locally**
@@ -123,8 +141,8 @@ pokemon-builder/public/img/
 
 You should now have:
 ```
-pokemon-builder/public/img/generation-i
-pokemon-builder/public/img/generation-ii
+pokemon-builder-public/public/img/generation-i
+pokemon-builder-public/public/img/generation-ii
 ```
 
 3. **Install Dependencies**

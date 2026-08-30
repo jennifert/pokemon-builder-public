@@ -19,9 +19,10 @@
     "scripts": {
         "docs": "jsdoc -c jsdoc.json",
         "info:browserslist": "npx browserslist",
-        "lint:js": "eslint src/",
-        "lint:jsFix": "eslint --fix src/",
+        "lint:js": "eslint \"src/**/*.js\"",
+        "lint:jsFix": "eslint \"src/**/*.js\" --fix",
         "lint:css": "stylelint src/css/style.css",
+        "lint": "npm run lint:js && npm run lint:css",
         "a11y:dev": "npx axe http://localhost:5173",
         "a11y:prod": "npx axe https://team-builder-app-7tqzs.ondigitalocean.app/",
         "dev": "vite",

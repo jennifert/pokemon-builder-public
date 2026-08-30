@@ -30,7 +30,7 @@ Focus: finish remaining Generation I behavior and clean up the application befor
 
 ## UI / Behavior
 
-- [ ] Update intro instructions to match current behavior:
+- [x] Update intro instructions to match current behavior:
   - Click a Pokémon to add it to the party.
   - Click it again to remove it.
   - Remove the old “double click to remove” wording.
@@ -183,7 +183,46 @@ The first stable public release.
 
 ---
 
-# 🧬 v1.1 — Generation II
+# 🔧 v1.0.1 — Dependency & Tooling Maintenance
+
+Focus: update development dependencies after the Generation I stable release without mixing major tooling changes into v1.0.
+
+## Dependency Updates
+
+- [ ] Review and update `@eslint/js` from 9.x to 10.x.
+- [ ] Review and update ESLint from 9.x to 10.x.
+- [ ] Review and update `globals` from 16.x to 17.x.
+- [ ] Review and update Stylelint from 16.x to 17.x.
+- [ ] Review and update `stylelint-config-standard` from 38.x to 40.x.
+- [ ] Review and update Vite from 6.x to 8.x.
+- [ ] Run `npm outdated` after updates.
+- [ ] Run `npm audit`.
+- [ ] Review configuration changes required by major-version upgrades.
+
+---
+
+## Verification
+
+- [ ] Run linting successfully.
+- [ ] Run Stylelint successfully.
+- [ ] Run `npm run build` successfully.
+- [ ] Test the application locally.
+- [ ] Verify Generation I data loads correctly.
+- [ ] Verify Pokémon filtering works correctly.
+- [ ] Verify party add/remove/clear behavior.
+- [ ] Verify team defensive analysis.
+- [ ] Verify production build assets and data paths.
+- [ ] Deploy updated build.
+- [ ] Smoke-test the production deployment.
+
+## Linting Cleanup
+
+- [ ] Resolve remaining Stylelint naming issue for `#partyDisplay`.
+  - Decide whether to rename it to `#party-display` throughout HTML/CSS/JavaScript.
+  - Alternatively, adjust the Stylelint rule if camelCase IDs remain the project convention.
+- [ ] Confirm `npm run lint` completes with no errors.
+
+# 🧬 v1.1.0 — Generation II
 
 Focus: add Gold, Silver, and Crystal primarily through data rather than generation-specific JavaScript.
 
