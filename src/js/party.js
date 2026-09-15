@@ -25,9 +25,9 @@ export const party = [];
  */
 export function updatePartyDisplay(generationData) {
 
-  const container = document.getElementById('partyDisplay');
-  const partyCount = document.getElementById('partyCount');
-  const clearPartyButton = document.getElementById('clearParty');
+  const container = document.getElementById('party-display');
+  const partyCount = document.getElementById('party-count');
+  const clearPartyButton = document.getElementById('clear-party');
 
   partyCount.textContent = `Party (${party.length}/${maxPartySize})`;
   clearPartyButton.classList.toggle(

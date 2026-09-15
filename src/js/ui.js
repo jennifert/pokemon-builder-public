@@ -158,7 +158,7 @@ selectedGeneration.addEventListener('change', async function () {
  * Refreshes the party display and team analysis.
  */
 document
-  .getElementById('clearParty')
+  .getElementById('clear-party')
   .addEventListener('click', () => {
     clearParty(currentGenerationData);
     interactionStatus.textContent = 'Party cleared.';
@@ -237,7 +237,7 @@ results.addEventListener('click', function (e) {
  * is activated.
  */
 document
-  .getElementById('partyDisplay')
+  .getElementById('party-display')
   .addEventListener('click', function (e) {
     const target = e.target.closest('[data-dexid]');
 

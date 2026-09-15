@@ -6,7 +6,7 @@
  * This file contains only custom application styles and overrides.
  */
 
-#partyDisplay {
+#party-display {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
