@@ -1,290 +1,156 @@
-# ✅ Pokémon Team Builder — TODO & Roadmap
+# Pokémon Team Builder — TODO & Roadmap
 
 This document tracks development tasks by planned release.
 
-The current goal is to complete and polish **Generation I** for the first stable release. Later generations will build on the same data-driven architecture.
+**v1.0** completed the original Generation I application using Vanilla JavaScript, Vite, Pico CSS, and JSON-based generation data.
+
+Beginning with **v1.1**, the application will move to **Next.js, API routes, and SQLite**. The database will provide a shared National Pokédex and generation-aware data model so later generations, forms, type changes, Mega Evolutions, and other mechanics can be added without maintaining increasingly complex generation-specific JSON files.
 
 ---
 
-# ✅ v0.7 — Gen I UI/CSS Polish
+# 🏗️ v1.1.0 — Next.js, API & Database Migration
 
-Focus: migrate the interface to Pico CSS and polish the Generation I presentation.
+Focus: migrate the stable Generation I application to Next.js and SQLite before adding additional generations.
 
-- [x] Move from Tailwind styling to Pico CSS.
-- [x] Polish available Pokémon results display.
-- [x] Improve party layout.
-- [x] Display the six-member party as a 3 × 2 grid.
-- [x] Improve team matchup table readability.
-- [x] Hide **Clear Party** when the party is empty.
-- [x] Confirm layout works at desktop widths.
-- [x] Confirm layout remains usable on small screens.
-- [x] Remove unnecessary custom CSS.
-- [x] Confirm Pico CSS and local assets work in the production build.
-- [x] Deploy updated interface to the hosted demo.
+> Goal: preserve the existing Generation I functionality while replacing the JSON-based data architecture with a relational, generation-aware data model.
 
----
+## Next.js Migration
 
-# ✅ v0.8 — Gen I Final Features, Cleanup & Testing
+- [ ] Create the Next.js application structure.
+- [ ] Migrate the existing Pico CSS interface.
+- [ ] Migrate Generation I filtering and party behavior.
+- [ ] Migrate defensive team analysis.
+- [ ] Preserve existing accessibility behavior.
+- [ ] Remove Vite-specific configuration after migration is complete.
 
-Focus: finish remaining Generation I behavior and clean up the application before the accessibility pass.
+## SQLite Database
 
-## UI / Behavior
+- [ ] Add SQLite database support.
+- [ ] Create database initialization/schema tooling.
+- [ ] Create a National Pokédex Pokémon table.
+- [ ] Create generation data.
+- [ ] Create game/version data.
+- [ ] Create type data.
+- [ ] Create generation-aware Pokémon typing data.
+- [ ] Create Pokémon availability/version data.
+- [ ] Create evolution-related data required by existing filters.
+- [ ] Design support for alternate forms.
+- [ ] Design support for Mega Evolutions and future generation-specific mechanics.
+- [ ] Import existing Generation I JSON data into SQLite.
+- [ ] Validate imported Generation I data against the v1.0 dataset.
 
-- [x] Update intro instructions to match current behavior:
-  - Select a Pokémon to add it to the party.
-  - Select it again to remove it.
-  - Remove the old “double click to remove” wording.
-- [x] Show party count.
-  - Example: `Party (3/6)`
-- [x] Show number of matching Pokémon.
-  - Example: `Available Pokémon (82)`
-- [x] Add loading feedback while generation data is being fetched.
-- [x] Add user-friendly error handling when generation JSON fails to load.
-- [x] Add consistent errors for missing or malformed generation data.
+## API / Data Layer
 
-## Cleanup
-
-- [x] Review HTML/JavaScript for old Tailwind-era classes.
-- [x] Remove unused CSS classes and old styling references.
-- [x] Remove remaining references to double-clicking Pokémon.
-- [x] Review JavaScript for obvious unused code/imports.
-- [x] Confirm `type-utils.js` remains clean after the type-chart refactor.
+- [ ] Add API routes for Pokémon data.
+- [ ] Add API routes for generations.
+- [ ] Add API routes for versions.
+- [ ] Add API routes for types and defensive matchup data.
+- [ ] Move database queries into a reusable data layer.
+- [ ] Keep UI components independent from direct SQLite access.
+- [ ] Add consistent API error handling.
+- [ ] Ensure production Pokémon data is read-only through the public application.
 
 ## Gen I Regression Testing
 
-Test all Generation I functionality before moving to the accessibility release.
-
-- [x] Generation I loads correctly.
-- [x] Red/Blue/Yellow version filtering works correctly.
-- [x] Sprite-set selection works correctly.
-- [x] Final-evolution filtering works correctly.
-- [x] Trade-evolution filtering works correctly.
-- [x] Version-exclusive filtering works correctly.
-- [x] Legendary filtering works correctly.
-- [x] Pokémon can be added to the party.
-- [x] Pokémon can be removed from the party.
-- [x] Party cannot exceed six Pokémon.
-- [x] Clear Party works correctly.
-- [x] Clear Party hides when the party becomes empty.
-- [x] Party count stays accurate.
-- [x] Available Pokémon count stays accurate.
-- [x] Weak / Resist / Immune / Neutral totals are correct.
-- [x] Empty-party behavior works correctly.
-- [x] Changing filters and showing Pokémon repeatedly does not produce stale state.
-- [x] Refreshing/reloading the application works correctly.
-
-## Production Build
-
-- [x] Run a clean production build.
-- [x] Verify `npm run build` completes without errors.
-- [x] Verify `/dist` contains the expected application assets.
-- [x] Test the production build.
-- [x] Verify local sprite assets load.
-- [x] Verify generation JSON loads.
-- [x] Verify root-relative `/data/...` paths.
-- [x] Deploy v0.8 to the hosted demo.
-- [x] Perform a quick regression test against the deployed version.
-
----
-# ✅ v0.9  — Accessibility & Release Readiness
-
-Focus: perform the dedicated accessibility pass and resolve issues before the stable Gen I release.
-
-## Manual Accessibility Testing
-
-- [x] Test keyboard-only navigation.
-- [x] Verify Tab navigation follows a sensible order.
-- [x] Test adding Pokémon using the keyboard.
-- [x] Test removing Pokémon using the keyboard.
-- [x] Test Clear Party using the keyboard.
-- [x] Test form controls using the keyboard.
-- [x] Test with a screen reader such as VoiceOver or NVDA.
-- [x] Verify visible focus indicators.
-- [x] Verify sufficient color contrast.
-- [x] Verify hover, focus and disabled states remain understandable.
-
-## Semantic HTML / ARIA
-
-- [x] Use semantic `<header>`, `<main>`, and `<footer>` landmarks.
-- [x] Use labels for generation and filter controls.
-- [x] Review whether party Pokémon should use `<button>` elements instead of clickable `<div>` elements.
-- [x] Review available Pokémon interaction semantics.
-- [x] Add `aria-live` where useful for changing party/results information.
-- [x] Verify sprite `alt` text.
-- [x] Verify disabled generation-dependent controls are announced clearly.
-- [x] Verify defensive matchup table headings and structure.
-- [x] Add a table caption if appropriate.
-
-## Accessibility Tools
-
-- [x] Run Axe automated accessibility scan against the application.
-- [x] Run accessibility checks against the production deployment.
-- [x] Review browser accessibility inspector results.
-- [x] Fix issues that should block the stable release.
-- [x] Re-test after fixes.
-
-## Final Release Readiness
-
-- [x] Perform final Gen I regression test after accessibility changes.
-- [x] Verify there are no known critical console errors.
-- [x] Verify production build again.
-- [x] Verify deployed application.
-- [x] Review TODO for anything that genuinely blocks v1.0.
-
----
-
-# 🔧 v1.0 — Generation I Stable
-
-The first stable public release.
-
-## Documentation
-
-Complete documentation as part of the final stable release.
-
-### README
-
-- [x] Document `generations.json`.
-- [x] Document generation-specific JSON files.
-- [x] Document data-driven versions and sprite sets.
-- [x] Document JSON-based weakness calculations.
-- [x] Add “How to use the app.”
-- [x] Explain Weak / Resist / Immune / Neutral analysis.
-- [x] Credit the PokeAPI sprites repository.
-- [x] Mention support targets latest stable browser versions.
-- [x] Remove any remaining double-click instructions.
-- [x] Add screenshot of the updated Pico interface.
-- [x] Add screenshot showing a completed six-Pokémon party.
-- [x] Add screenshot showing the defensive matchup table.
-- [x] Document local production-build steps.
-- [x] Document deployment steps.
-
-## Release Requirements
-
-- [x] Gen I Pokémon data loaded from JSON.
-- [x] Gen I versions loaded from JSON.
-- [x] Gen I sprite sets loaded from JSON.
-- [x] Generation-aware architecture.
-- [x] Generic version-exclusivity filtering.
-- [x] Pokémon defensive values sourced from generation JSON.
-- [x] Team Weak / Resist / Immune / Neutral analysis.
-- [x] Pico CSS interface.
-- [x] Polished Pokémon results display.
-- [x] Polished six-member party display.
-- [x] Polished defensive matchup table.
-- [x] Graceful loading/data errors.
-- [x] Complete Gen I regression testing.
-- [x] Complete accessibility pass.
-- [x] Complete README/screenshots.
-- [x] Verify final production deployment.
-- [ ] Create/tag **v1.0.0** stable release.
-
----
-
-# 🔧 v1.0.1 — Dependency & Tooling Maintenance
-
-Focus: update development dependencies after the Generation I stable release without mixing major tooling changes into v1.0.
-
-## Dependency Updates
-
-- [ ] Review and update `@eslint/js` from 9.x to 10.x.
-- [ ] Review and update ESLint from 9.x to 10.x.
-- [ ] Review and update `globals` from 16.x to 17.x.
-- [ ] Review and update Stylelint from 16.x to 17.x.
-- [ ] Review and update `stylelint-config-standard` from 38.x to 40.x.
-- [ ] Review and update Vite from 6.x to 8.x.
-- [ ] Run `npm outdated` after updates.
-- [ ] Run `npm audit`.
-- [ ] Review configuration changes required by major-version upgrades.
-
-## Verification
-
-- [ ] Run linting successfully.
-- [ ] Run Stylelint successfully.
-- [ ] Run `npm run build` successfully.
-- [ ] Add a combined `npm run check` script for local verification.
-  - Run linting.
-  - Run the local Axe accessibility scan.
-  - Run the production build.
-- [ ] Confirm `npm run check` completes successfully.
-- [ ] Test the application locally.
-- [ ] Verify Generation I data loads correctly.
-- [ ] Verify Pokémon filtering works correctly.
+- [ ] Verify all 151 Generation I Pokémon.
+- [ ] Verify Red/Blue/Yellow filtering.
+- [ ] Verify sprite selection.
+- [ ] Verify final-evolution filtering.
+- [ ] Verify trade-evolution filtering.
+- [ ] Verify version-exclusive filtering.
+- [ ] Verify legendary filtering.
 - [ ] Verify party add/remove/clear behavior.
-- [ ] Verify team defensive analysis.
-- [ ] Verify production build assets and data paths.
-- [ ] Deploy updated build.
-- [ ] Smoke-test the production deployment.
+- [ ] Verify six-Pokémon party limit.
+- [ ] Verify defensive matchup calculations.
+- [ ] Verify keyboard and screen-reader behavior.
+- [ ] Run automated accessibility checks.
+- [ ] Verify production deployment.
 
-## Linting Cleanup
+## Cleanup
 
-- [ ] Resolve remaining Stylelint naming issue for `#partyDisplay`.
-  - Decide whether to rename it to `#party-display` throughout HTML/CSS/JavaScript.
-  - Alternatively, adjust the Stylelint rule if camelCase IDs remain the project convention.
-- [ ] Confirm `npm run lint` completes with no errors.
-
----
-
-# 🧬 v1.1.0 — Generation II
-
-Focus: add Gold, Silver, and Crystal primarily through data rather than generation-specific JavaScript.
-
-> Goal: adding Gen II should mostly be a data task. Avoid generation-specific JavaScript unless the game mechanics genuinely require it.
-
-## Generation Data
-
-- [ ] Add Generation II to `generations.json` when Gen II is ready to be enabled.
-- [ ] Add Gen II sprites to the public deployment when Gen II is enabled.
-- [ ] Review and complete `gen2.json`.
-- [ ] Add/verify Gen II display metadata.
-- [ ] Add/verify Gold, Silver, and Crystal version data.
-- [ ] Add/verify Gen II sprite sets and local sprite paths.
-- [ ] Verify all Gen II Pokémon entries.
-- [ ] Verify Dark and Steel defensive values.
-- [ ] Verify Gen II evolution metadata.
-- [ ] Verify version exclusives.
-
-## Integration
-
-- [ ] Test switching between Generation I and Generation II.
-- [ ] Confirm switching generations clears incompatible party state safely.
-- [ ] Confirm generic version filtering works.
-- [ ] Confirm generic final-evolution filtering works.
-- [ ] Confirm generic trade-evolution filtering works.
-- [ ] Confirm generic legendary filtering works.
-- [ ] Confirm team defensive analysis works with Gen II.
-- [ ] Confirm no Gen II-specific JavaScript is required unnecessarily.
-
-## Documentation
-
-- [ ] Add Gen II screenshots.
-- [ ] Update README for Generation II.
-- [ ] Update supported-generation documentation.
+- [ ] Remove generation JSON files once database migration is verified.
+- [ ] Remove obsolete JSON loading utilities.
+- [ ] Remove obsolete Vite files and dependencies.
+- [ ] Update README for Next.js development.
+- [ ] Document database initialization.
+- [ ] Document API/data architecture.
+- [ ] Update deployment documentation.
 
 ---
 
-# 🌍 v1.2.0 — Generation III
+# 🧬 v1.2.0 — Generation II
 
-Focus: add Ruby, Sapphire, and Emerald using the existing generation architecture.
+Focus: add Gold, Silver, and Crystal using the new database-driven architecture.
 
-- [ ] Create `gen3.json`.
-- [ ] Add Gen III Pokémon data.
-- [ ] Add Ruby/Sapphire/Emerald version metadata.
-- [ ] Add Gen III sprite sets and local sprite paths.
-- [ ] Add Gen III defensive matchup data.
-- [ ] Add/verify Gen III evolution metadata.
+> Goal: adding Generation II should primarily require adding data rather than generation-specific application logic.
+
+- [ ] Add Generation II Pokémon availability.
+- [ ] Add Gold, Silver, and Crystal version data.
+- [ ] Add Generation II sprite data/assets.
+- [ ] Add Dark and Steel types.
+- [ ] Add generation-aware type changes for existing Pokémon.
+- [ ] Add/verify Generation II evolution metadata.
 - [ ] Add/verify version exclusives.
-- [ ] Test all generic filters against Gen III.
-- [ ] Test party behavior with Gen III.
-- [ ] Test defensive matchup analysis with Gen III.
-- [ ] Add Gen III screenshots/documentation.
-- [ ] Consider region filtering only if it provides useful behavior beyond the generation selector.
-- [ ] Add Gen III sprites to the public deployment when Gen III is enabled.
+- [ ] Test switching between Generation I and Generation II.
+- [ ] Verify generic filters against Generation II.
+- [ ] Verify defensive analysis against Generation II.
+- [ ] Update screenshots and documentation.
+
+---
+
+# 🧚 v1.3.0 — Generation VI
+
+Focus: introduce Generation VI and establish support for Fairy typing, Mega Evolution, and forms.
+
+> Goal: solve the major data-model changes required by later generations before backfilling Generations III–V.
+
+- [ ] Add Generation VI Pokémon.
+- [ ] Add X and Y version data.
+- [ ] Add Fairy type.
+- [ ] Add generation-aware Fairy type changes to older Pokémon.
+- [ ] Add Mega Evolution data.
+- [ ] Add Mega Evolution forms and typings.
+- [ ] Verify alternate-form handling.
+- [ ] Verify type calculations with Fairy.
+- [ ] Verify Pokémon whose types changed between generations.
+- [ ] Verify Mega Evolution display and team analysis.
+- [ ] Update screenshots and documentation.
+
+---
+
+# 🌍 v1.4.0 — Generation III
+
+Focus: add Ruby, Sapphire, and Emerald using the established database architecture.
+
+- [ ] Add Generation III Pokémon.
+- [ ] Add Ruby, Sapphire, and Emerald version data.
+- [ ] Add Generation III sprite data/assets.
+- [ ] Add Generation III Pokémon availability.
+- [ ] Add/verify evolution metadata.
+- [ ] Add/verify version exclusives.
+- [ ] Ensure Fairy-type changes introduced in Generation VI do not apply to Generation III.
+- [ ] Test generic filters.
+- [ ] Test party behavior.
+- [ ] Test defensive matchup analysis.
+- [ ] Update screenshots and documentation.
+
+---
+
+# 🌍 Later Generations
+
+Continue adding generations using the shared National Pokédex and generation-aware database architecture.
+
+Planned order:
+
+- **v1.5.0 — Generation IV**
+- **v1.6.0 — Generation V**
+- **Later v1.x releases — Generations VII, VIII, and IX**
+
+Each generation should primarily extend database content. New application logic should only be introduced when a generation adds mechanics that cannot be represented by the existing data model.
 
 ---
 
 # 🔮 Future Features
-
-These features are **not required for the Generation I stable release** and can be considered for later releases.
 
 ## Team Analysis
 
@@ -299,64 +165,53 @@ These features are **not required for the Generation I stable release** and can 
 
 - [ ] Add individual Pokémon details panel.
 - [ ] Add optional Pokédex/detail view.
-- [ ] Add Pokédex links using generation `serebiiDex` data.
+- [ ] Add generation/version-aware links to external Serebii Pokédex entries.
 
 ## Performance
 
-- [x] Load generation Pokémon data only after a generation is selected.
-- [x] Load selected generation data once and pass it to party/team modules.
-- [ ] Avoid refetching the same generation unnecessarily.
-- [ ] Consider caching previously loaded generations in memory.
-- [ ] Consider sprite lazy-loading if later generations noticeably increase page weight.
-- [ ] Consider offline-first/PWA support.
+- [ ] Review API response caching where appropriate.
+- [ ] Avoid unnecessary repeated database queries.
+- [ ] Consider sprite lazy-loading as supported generations increase.
+- [ ] Consider offline/PWA support where compatible with the application architecture.
 
-## Code Organization
+## Database / Data Validation
 
-- [ ] Consider adding `src/js/generation.js` if `ui.js` becomes too large.
-  - Load selected generation.
-  - Populate sprite options.
-  - Populate version options.
-  - Update generation title/description.
-  - Keep `ui.js` focused mainly on event listeners.
-- [x] Review `type-utils.js` after removal of the old JavaScript type chart.
-- [x] Remove `types.js` after confirming nothing depends on it.
-
-## Data Validation
-
-- [ ] Consider JSON validation for generation data.
-- [ ] Consider a shared schema describing `gen1.json`, `gen2.json`, etc.
-- [ ] Consider automated JSON validation in CI.
+- [ ] Add validation for database seed/import data.
+- [ ] Add database integrity checks.
+- [ ] Test generation-aware Pokémon typing.
+- [ ] Test version availability data.
+- [ ] Test form and Mega Evolution relationships.
+- [ ] Add automated database validation to CI.
 
 ---
 
 # 🛠️ Future Development Tooling
 
-These are useful improvements but are **not v1.0 blockers**.
-
 ## Linting / Formatting
 
-- [x] Replace HTMLHint with `html-validate`.
-- [ ] Consider Prettier for HTML, JavaScript, CSS, JSON, and Markdown.
+- [ ] Consider Prettier for HTML/JSX, JavaScript, CSS, JSON, SQL, and Markdown.
 
 ## Automated Testing
 
-- [ ] Consider Vitest for JavaScript unit tests.
-- [ ] Add tests for generation data loading.
+- [ ] Add unit tests for the data/query layer.
+- [ ] Add tests for API routes.
+- [ ] Add tests for generation filtering.
 - [ ] Add tests for version-exclusivity filtering.
 - [ ] Add tests for final-evolution filtering.
 - [ ] Add tests for legendary filtering.
 - [ ] Add tests for trade-evolution filtering.
 - [ ] Add tests for weakness/resistance/immunity aggregation.
 - [ ] Add tests ensuring generation switching clears incompatible party state.
+- [ ] Add tests for generation-specific typing changes.
 - [ ] Consider Playwright for browser-level integration testing.
-- [ ] Consider `axe-playwright` or `jest-axe` for automated accessibility testing.
+- [ ] Consider `axe-playwright` or equivalent for automated accessibility testing.
 
 ## CI
 
 - [ ] Integrate linting into GitHub Actions.
 - [ ] Consider automated accessibility checks.
 - [ ] Consider Lighthouse CI.
-- [ ] Consider automated JSON validation.
+- [ ] Add automated database/data validation.
 
 ---
 
@@ -368,7 +223,8 @@ Useful if outside contributions increase.
   - Installing dependencies.
   - Running the development server.
   - Linting/testing/formatting.
-  - Generation JSON conventions.
+  - Database setup.
+  - Adding Pokémon/generation data.
   - Adding a new generation.
 - [ ] Add a data-contribution guide.
-- [x] Maintain generated JSDoc API documentation.
+- [x] Maintain generated API documentation where appropriate.

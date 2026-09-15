@@ -28,40 +28,21 @@ The application is designed around reusable generation data files, allowing new 
 
 ## 🚧 Project Status
 
-Current Development Version: **0.9.0**
+Current Stable Version: **v1.0.0**
 
-Implemented:
+Generation I is complete and available as the first stable release.
 
-- Generation I
-- Dynamic generation loading
-- Data-driven architecture
-- Team defensive analysis
-- Version and evolution filtering
-- Pico CSS responsive interface
-- Keyboard-accessible Pokémon and party controls
-- Automated accessibility testing with axe-core
-- Accessible defensive matchup table
-- Screen reader testing
-- Final accessibility verification
+### Current Development
 
-In Progress:
+The next planned release is **v1.0.1**, a maintenance release focused on dependency updates, tooling improvements, and minor cleanup. No major application architecture or new Pokémon generations are planned for this patch release.
 
-- Generation I stable-release preparation
+### What's Next
 
-Generation II support is planned for **v1.1.0**, after the Generation I stable release.
+Development after v1.0.1 will begin the **v1.1.0 architecture update**, migrating the application to Next.js with API routes and a SQLite-backed data model.
 
-### Release Roadmap
+This will establish the foundation for additional generations, generation-aware Pokémon data, forms, Mega Evolutions, and other mechanics without relying on increasingly complex generation-specific JSON files.
 
-- **v0.8.0** — Generation I final features, cleanup, and testing
-- **v0.9.0** — Accessibility and release readiness
-- **v1.0.0** — Generation I stable release
-- **v1.0.x** — Maintenance releases, including dependency and tooling updates
-- **v1.1.0** — Generation II
-- **v1.2.0** — Generation III
-
-Patch releases such as `v1.0.1` are reserved for maintenance, bug fixes,
-dependency updates, and tooling improvements that do not introduce a new
-Pokémon generation.
+See [`TODO.md`](./TODO.md) for the full development roadmap and planned v1.1.0 migration.
 
 ## 📄 License
 
@@ -292,7 +273,7 @@ This project aims to be:
 - Offline capable
 - Free and open source
 
-Adding a new Pokémon generation should primarily involve creating new JSON data rather than rewriting application logic.
+The project aims to keep Pokémon data separate from application logic so that supporting additional generations primarily involves extending structured data rather than rewriting application behavior.
 
 ### 🧪 JSDoc Reference
 
@@ -345,11 +326,6 @@ The public site is deployed as a static site through DigitalOcean.
 3. Commit and push the updated static files.
 4. DigitalOcean automatically deploys the new commit.
 5. Verify the production site after deployment.
-
-
-#### 📖 How it's structured:
-- Each JS module (like `party.js`, `team.js`) includes detailed descriptions, parameters, and return types
-- Comments follow the [JSDoc standard](https://jsdoc.app/about-getting-started.html)
 
 ## 🚀 Using the Team Builder
 
