@@ -34,7 +34,8 @@ export async function fetchGenerations() {
   } catch (error) {
     if (error instanceof SyntaxError) {
       throw new Error(
-        'The generation list contains invalid JSON.'
+        'The generation list contains invalid JSON.',
+        { cause: error }
       );
     }
 
@@ -106,7 +107,10 @@ export async function fetchDexEntries(file) {
     return validateGenerationData(data);
   } catch (error) {
     if (error instanceof SyntaxError) {
-      throw new Error(`The data in ${file} is not valid JSON.`);
+      throw new Error(
+        `The data in ${file} is not valid JSON.`,
+        { cause: error }
+      );
     }
 
     throw error;
