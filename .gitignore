@@ -29,3 +29,4 @@ dist/
 # Ignore all sprite images
 public/img/*
 !public/img/.gitkeep
+database/pokemon-builder.sqlite
