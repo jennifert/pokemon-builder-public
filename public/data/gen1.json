@@ -47,7 +47,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":16,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -80,7 +82,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":32,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -113,7 +117,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -145,7 +151,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":16,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -177,7 +185,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":36,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -210,7 +220,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -242,7 +254,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":16,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -274,7 +288,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":36,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -306,7 +322,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -338,7 +356,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":7,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -370,7 +390,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":10,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -403,7 +425,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -436,7 +460,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "yellow"
@@ -471,7 +497,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "yellow"
@@ -506,7 +534,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "yellow"
@@ -541,7 +571,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -574,7 +606,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -607,7 +641,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -639,7 +675,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -671,7 +709,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -704,7 +744,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -737,7 +779,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -769,7 +813,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "blue",
@@ -804,7 +850,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "blue",
@@ -839,7 +887,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -871,7 +921,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "yellow"
@@ -905,7 +957,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "red"
@@ -939,7 +993,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "red"
@@ -973,7 +1029,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1005,7 +1063,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1038,7 +1098,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1070,7 +1132,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1102,7 +1166,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1135,7 +1201,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1167,7 +1235,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1199,7 +1269,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1231,7 +1303,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "red"
@@ -1265,7 +1339,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "red"
@@ -1299,7 +1375,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1331,7 +1409,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1364,7 +1444,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1397,7 +1479,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1430,7 +1514,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "blue"
@@ -1465,7 +1551,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "blue"
@@ -1500,7 +1588,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "blue"
@@ -1535,7 +1625,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1568,7 +1660,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1601,7 +1695,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1634,7 +1730,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1666,7 +1764,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1698,7 +1798,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1730,7 +1832,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "red", 
@@ -1765,7 +1869,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "red", 
@@ -1800,7 +1906,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1832,7 +1940,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -1864,7 +1974,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "blue"
@@ -1898,7 +2010,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "blue"
@@ -1932,7 +2046,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "blue"
@@ -1966,7 +2082,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "blue"
@@ -2000,7 +2118,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2032,7 +2152,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2065,7 +2187,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2097,7 +2221,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2129,7 +2255,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2161,7 +2289,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": true
+                "trade": true,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2193,7 +2323,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2225,7 +2357,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2257,7 +2391,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": true
+                "trade": true,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2290,7 +2426,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "red"
@@ -2325,7 +2463,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "red"
@@ -2360,7 +2500,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "red"
@@ -2395,7 +2537,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2428,7 +2572,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2461,7 +2607,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2494,7 +2642,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2527,7 +2677,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": true
+                "trade": true,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2559,7 +2711,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2591,7 +2745,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2624,7 +2780,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2657,7 +2815,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2689,7 +2849,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2721,7 +2883,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2754,7 +2918,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2787,7 +2953,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2820,7 +2988,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2852,7 +3022,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2885,7 +3057,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2917,7 +3091,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2949,7 +3125,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -2981,7 +3159,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3014,7 +3194,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3047,7 +3229,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3080,7 +3264,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3113,7 +3299,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": true
+                "trade": true,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3146,7 +3334,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3178,7 +3368,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3210,7 +3402,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3242,7 +3436,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3274,7 +3470,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3306,7 +3504,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3338,7 +3538,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3371,7 +3573,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3404,7 +3608,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3436,7 +3642,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3468,7 +3676,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3500,7 +3710,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3532,7 +3744,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3564,7 +3778,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3596,7 +3812,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "yellow"
@@ -3630,7 +3848,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "yellow"
@@ -3665,7 +3885,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3698,7 +3920,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3730,7 +3954,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3762,7 +3988,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3794,7 +4022,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3826,7 +4056,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3858,7 +4090,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3890,7 +4124,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3922,7 +4158,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3954,7 +4192,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -3987,7 +4227,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4019,7 +4261,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4052,7 +4296,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "blue"
@@ -4087,7 +4333,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "yellow"
@@ -4121,7 +4369,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "blue",
@@ -4156,7 +4406,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "red",
@@ -4191,7 +4443,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "red"
@@ -4225,7 +4479,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4257,7 +4513,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4290,7 +4548,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4323,7 +4583,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4355,7 +4617,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4387,7 +4651,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4419,7 +4685,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4451,7 +4719,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4483,7 +4753,9 @@
             "evolve": {
                 "friendship": false,
                 "item": true,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4515,7 +4787,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4548,7 +4822,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4581,7 +4857,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4614,7 +4892,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4647,7 +4927,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4680,7 +4962,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4712,7 +4996,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4745,7 +5031,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4778,7 +5066,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4811,7 +5101,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4843,7 +5135,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4875,7 +5169,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4908,7 +5204,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4940,7 +5238,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [],
             "weaknesses": {
@@ -4972,7 +5272,9 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false
+                "trade": false,
+                "level":null,
+                "notes":null
             },
             "unobtainable": [
                 "blue",
