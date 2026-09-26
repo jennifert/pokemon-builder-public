@@ -461,7 +461,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":7,
                 "notes":null
             },
             "unobtainable": [
@@ -498,7 +498,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":10,
                 "notes":null
             },
             "unobtainable": [
@@ -572,7 +572,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":18,
                 "notes":null
             },
             "unobtainable": [],
@@ -607,7 +607,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":36,
                 "notes":null
             },
             "unobtainable": [],
@@ -676,7 +676,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":20,
                 "notes":null
             },
             "unobtainable": [],
@@ -745,7 +745,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":20,
                 "notes":null
             },
             "unobtainable": [],
@@ -814,7 +814,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":22,
                 "notes":null
             },
             "unobtainable": [
@@ -886,10 +886,10 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
-                "notes":null
+                "notes": "Starter Pikachu in Pokémon Yellow does not evolve"
             },
             "unobtainable": [],
             "weaknesses": {
@@ -920,7 +920,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -958,7 +958,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":22,
                 "notes":null
             },
             "unobtainable": [
@@ -1030,7 +1030,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":16,
                 "notes":null
             },
             "unobtainable": [],
@@ -1062,7 +1062,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -1097,7 +1097,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -1133,7 +1133,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":16,
                 "notes":null
             },
             "unobtainable": [],
@@ -1165,7 +1165,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -1200,7 +1200,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -1234,7 +1234,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -1268,7 +1268,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -1302,7 +1302,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -1338,7 +1338,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -1374,7 +1374,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -1408,7 +1408,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -1445,7 +1445,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":22,
                 "notes":null
             },
             "unobtainable": [],
@@ -1515,7 +1515,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":21,
                 "notes":null
             },
             "unobtainable": [
@@ -1550,7 +1550,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -1587,7 +1587,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -1626,7 +1626,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":24,
                 "notes":null
             },
             "unobtainable": [],
@@ -1696,7 +1696,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":31,
                 "notes":null
             },
             "unobtainable": [],
@@ -1765,7 +1765,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":26,
                 "notes":null
             },
             "unobtainable": [],
@@ -1833,7 +1833,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":28,
                 "notes":null
             },
             "unobtainable": [
@@ -1907,7 +1907,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":33,
                 "notes":null
             },
             "unobtainable": [],
@@ -1975,7 +1975,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":28,
                 "notes":null
             },
             "unobtainable": [
@@ -2045,7 +2045,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -2081,7 +2081,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -2119,7 +2119,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":25,
                 "notes":null
             },
             "unobtainable": [],
@@ -2151,7 +2151,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -2186,7 +2186,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -2222,7 +2222,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":16,
                 "notes":null
             },
             "unobtainable": [],
@@ -2255,7 +2255,7 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false,
+                "trade": true,
                 "level":null,
                 "notes":null
             },
@@ -2289,7 +2289,7 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": true,
+                "trade": false,
                 "level":null,
                 "notes":null
             },
@@ -2324,7 +2324,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":28,
                 "notes":null
             },
             "unobtainable": [],
@@ -2357,7 +2357,7 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false,
+                "trade": true,
                 "level":null,
                 "notes":null
             },
@@ -2391,7 +2391,7 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": true,
+                "trade": false,
                 "level":null,
                 "notes":null
             },
@@ -2427,7 +2427,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":21,
                 "notes":null
             },
             "unobtainable": [
@@ -2462,7 +2462,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -2499,7 +2499,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -2538,7 +2538,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":30,
                 "notes":null
             },
             "unobtainable": [],
@@ -2608,7 +2608,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":25,
                 "notes":null
             },
             "unobtainable": [],
@@ -2642,7 +2642,7 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false,
+                "trade": true,
                 "level":null,
                 "notes":null
             },
@@ -2677,7 +2677,7 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": true,
+                "trade": false,
                 "level":null,
                 "notes":null
             },
@@ -2712,7 +2712,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":40,
                 "notes":null
             },
             "unobtainable": [],
@@ -2781,7 +2781,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":37,
                 "notes":null
             },
             "unobtainable": [],
@@ -2850,7 +2850,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":30,
                 "notes":null
             },
             "unobtainable": [],
@@ -2954,7 +2954,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":31,
                 "notes":null
             },
             "unobtainable": [],
@@ -3023,7 +3023,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":34,
                 "notes":null
             },
             "unobtainable": [],
@@ -3092,7 +3092,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":38,
                 "notes":null
             },
             "unobtainable": [],
@@ -3158,7 +3158,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -3193,7 +3193,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -3230,7 +3230,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":25,
                 "notes":null
             },
             "unobtainable": [],
@@ -3264,7 +3264,7 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": false,
+                "trade": true,
                 "level":null,
                 "notes":null
             },
@@ -3299,8 +3299,8 @@
             "evolve": {
                 "friendship": false,
                 "item": false,
-                "trade": true,
-                "level":null,
+                "trade": false,
+                "level": null,
                 "notes":null
             },
             "unobtainable": [],
@@ -3369,7 +3369,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":26,
                 "notes":null
             },
             "unobtainable": [],
@@ -3437,7 +3437,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":28,
                 "notes":null
             },
             "unobtainable": [],
@@ -3505,7 +3505,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":30,
                 "notes":null
             },
             "unobtainable": [],
@@ -3572,7 +3572,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -3607,7 +3607,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -3643,7 +3643,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":28,
                 "notes":null
             },
             "unobtainable": [],
@@ -3813,7 +3813,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":35,
                 "notes":null
             },
             "unobtainable": [
@@ -3886,7 +3886,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":42,
                 "notes":null
             },
             "unobtainable": [],
@@ -4057,7 +4057,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":32,
                 "notes":null
             },
             "unobtainable": [],
@@ -4125,7 +4125,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":33,
                 "notes":null
             },
             "unobtainable": [],
@@ -4191,7 +4191,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -4226,7 +4226,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -4514,7 +4514,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":20,
                 "notes":null
             },
             "unobtainable": [],
@@ -4650,7 +4650,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": false,
+                "item": true,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -4684,7 +4684,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -4718,7 +4718,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -4752,7 +4752,7 @@
             ],
             "evolve": {
                 "friendship": false,
-                "item": true,
+                "item": false,
                 "trade": false,
                 "level":null,
                 "notes":null
@@ -4823,7 +4823,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":40,
                 "notes":null
             },
             "unobtainable": [],
@@ -4893,7 +4893,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":40,
                 "notes":null
             },
             "unobtainable": [],
@@ -5136,7 +5136,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":30,
                 "notes":null
             },
             "unobtainable": [],
@@ -5170,7 +5170,7 @@
                 "friendship": false,
                 "item": false,
                 "trade": false,
-                "level":null,
+                "level":55,
                 "notes":null
             },
             "unobtainable": [],
